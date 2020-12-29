@@ -38,22 +38,22 @@ module.exports = {
       ]
     },
     repo: {
-      platform: 'https://github.com/',
-      icon: 'fab fa-github',
+      platform: 'https://gitee.com/',
+      icon: 'fab fa-git',
       owner: 'qcyblm',
-      repositories: 'qcyblm.github.io',
+      repositories: 'qcyblm',
     },
     editLinks: true,
     editLinkText: '编辑当前页',
     edit: {
-      docsDir: 'gitee_src',
+      docsDir: 'src',
     },
     lastUpdated: '最后更新时间',
     footer: {
       createYear: '2020',
       author: 'qcyblm',
       authorLink: 'https://qcyblm.gitee.io/',
-      licensedLink: 'https://github.com/qcyblm/qcyblm.github.io/blob/master/LICENSE',
+      licensedLink: 'https://gitee.com/qcyblm/qcyblm/blob/master/LICENSE',
       licensed: 'MIT',
     }
   },
