@@ -3,7 +3,9 @@ module.exports = {
   title: '青春永不落幕',
   description: '一位静态网站设计爱好者',
   head: [
-    ['meta', { name: 'baidu-site-verification', content: 'code-jNjoWXWohM' }]
+    ['meta', { name: 'baidu-site-verification', content: 'code-jNjoWXWohM' }],
+    ['link', { rel: 'icon', href: './favicon.ico', type: 'image/x-icon' }],
+    ['link', { rel: 'shortcut icon', href: './favicon.ico', type: 'image/x-icon' }],
   ],
   temp: '.temp',
   cache: '.cache',
