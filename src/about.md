@@ -30,14 +30,13 @@
 - 软件
   - 操作系统内核：Windows NT
   - Windows 操作系统主要版本：Windows 7、Windows 10
-  - Web浏览器：Firefox、Google Chrome、Microsoft Edge
+  - Web浏览器：Firefox、Google Chrome
   - 设计编辑器：CorelDRAW、Adobe Photoshop、Visual Studio Code
   - 压缩软件：7-Zip
   - 截图工具：Snipaste
-  - 看图软件：爱奇艺万能播放器
-  - 媒体播放：暴风影音16
-  - 网盘传输：百度网盘、OneDrive
-  - 社交聊天：微信、TIM、QQ
+  - 媒体播放：爱奇艺万能播放器
+  - 网盘传输：百度网盘、天翼云、OneDrive
+  - 社交聊天：微信、TIM
 
 ## 电子设备
 作为技术爱好者，我每天的大部分时间都被台式电脑所占据。以下是我使用的电脑设备
