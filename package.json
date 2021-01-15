@@ -1,9 +1,9 @@
 {
-  "name": "qcyblm.github.io",
+  "name": "qcyblm.gitee.io",
   "version": "1.0.0",
   "description": "一位静态网站设计爱好者",
   "main": "index.js",
-  "repository": "git@github.com:qcyblm/qcyblm.github.io.git",
+  "repository": "git@gitee.com:qcyblm/qcyblm.gitee.io.git",
   "author": "qcyblm",
   "license": "MIT",
   "scripts": {
@@ -12,16 +12,15 @@
     "deploy": "bash deploy.sh"
   },
   "bugs": {
-    "url": "https://github.com/qcyblm/qcyblm.github.io/issues"
+    "url": "https://gitee.com/qcyblm/qcyblm.gitee.io/issues"
   },
-  "homepage": "https://github.com/qcyblm/qcyblm.github.io#readme",
+  "homepage": "https://gitee.com/qcyblm/qcyblm.gitee.io#readme",
   "devDependencies": {
     "@qcyblm/vuepress-theme-vpx": "^1.0.6",
     "vuepress": "^1.7.1"
   },
   "dependencies": {
     "@vssue/api-gitee-v5": "^1.4.4",
-    "@vssue/api-github-v3": "^1.4.4",
     "@vssue/vuepress-plugin-vssue": "^1.4.6",
     "moment": "^2.29.1"
   }

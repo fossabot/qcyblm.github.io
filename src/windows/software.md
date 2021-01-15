@@ -32,6 +32,8 @@
  - [极品五笔](http://jpwb.cc/rjxz.htm)
  - [极点五笔](http://www.freewb.org/)
  - [万能五笔](http://www.wnwb.com/)
+ - [小狼毫输入法](https://rime.im/)
+ - [维软标准输入法](http://www.uighursoft.com/zh-CN/products/alkatip.html)
 
 ## 安全
  - [360安全卫士](https://weishi.360.cn/)
@@ -80,6 +82,7 @@
  - [Honeyview](https://www.bandisoft.com/honeyview/)
  - [Honeycam](https://www.bandisoft.com/honeycam/)
  - [图片工厂](http://www.pcfreetime.com/picosmos/index.php)
+ - [Waifu2x-Extension-GUI ](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
 
 ## 文件处理
  - [Everything](https://www.voidtools.com/)

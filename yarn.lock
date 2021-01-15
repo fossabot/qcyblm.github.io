@@ -1276,16 +1276,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vssue/api-github-v3@npm:^1.4.4":
-  version: 1.4.4
-  resolution: "@vssue/api-github-v3@npm:1.4.4::__archiveUrl=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vssue%2Fapi-github-v3%2Fdownload%2F%40vssue%2Fapi-github-v3-1.4.4.tgz"
-  dependencies:
-    "@vssue/utils": ^1.4.0
-    axios: ^0.18.1
-  checksum: e0d9b371f5a63c29a75132fbb4d0a9a7ff35963ea1a138597ab7d8570d6b00b5ea4368a67cdebe4febbac373309025db6fb69a72db7f499760d21614f9185aac
-  languageName: node
-  linkType: hard
-
 "@vssue/utils@npm:^1.4.0":
   version: 1.4.0
   resolution: "@vssue/utils@npm:1.4.0::__archiveUrl=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vssue%2Futils%2Fdownload%2F%40vssue%2Futils-1.4.0.tgz"
@@ -8250,13 +8240,12 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"qcyblm.github.io@workspace:.":
+"qcyblm.gitee.io@workspace:.":
   version: 0.0.0-use.local
-  resolution: "qcyblm.github.io@workspace:."
+  resolution: "qcyblm.gitee.io@workspace:."
   dependencies:
     "@qcyblm/vuepress-theme-vpx": ^1.0.6
     "@vssue/api-gitee-v5": ^1.4.4
-    "@vssue/api-github-v3": ^1.4.4
     "@vssue/vuepress-plugin-vssue": ^1.4.6
     moment: ^2.29.1
     vuepress: ^1.7.1
