@@ -138,6 +138,9 @@
  - [图吧工具箱](https://www.tbtool.cn/)
  - [卡硬工具箱](http://www.kbtool.cn/)
 
+## 模拟器
+ - [逍遥安卓模拟器](https://www.xyaz.cn/)
+
 ## 虚拟机
  - [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)
  - [VirtualBox](https://www.virtualbox.org/)
