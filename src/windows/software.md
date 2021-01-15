@@ -85,6 +85,9 @@
  - [图片工厂](http://www.pcfreetime.com/picosmos/index.php)
  - [Waifu2x-Extension-GUI ](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
 
+## 屏幕录制
+ -[OBS Studio](https://obsproject.com/)
+
 ## 文件处理
  - [Everything](https://www.voidtools.com/)
  - [Geek](http://www.geekuninstaller.com/)
@@ -122,6 +125,8 @@
  - [Notepad3](https://www.rizonesoft.com/downloads/notepad3/)
  - [Git](https://git-scm.com/)
  - [Node.js](https://nodejs.org/)
+ - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+ - [PyCharm](https://www.jetbrains.com/pycharm/)
 
 ## 硬件检测
  - [鲁大师](https://www.ludashi.com/)
