@@ -65,6 +65,7 @@
  - [7-Zip](https://www.7-zip.org/)
  - [Bandizip](https://www.bandisoft.com/bandizip/)
  - [360 Zip](https://www.360totalsecurity.com/zh-cn/360zip/)
+ - [7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd)
 
 ## 办公软件
  - [Microsoft Office](https://www.office.com/)
@@ -93,6 +94,7 @@
  - [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html)
  - [小丸工具箱](https://maruko.appinn.me/)
  - [Q-Dir](http://www.softwareok.com/?seite=Freeware/Q-Dir)
+ - [BelaUtils](https://github.com/fcharlie/BelaUtils)
 
 ## 上传下载
  - [百度网盘](https://pan.baidu.com/)
