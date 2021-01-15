@@ -86,7 +86,7 @@
  - [Waifu2x-Extension-GUI ](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
 
 ## 屏幕录制
- -[OBS Studio](https://obsproject.com/)
+ - [OBS Studio](https://obsproject.com/)
 
 ## 文件处理
  - [Everything](https://www.voidtools.com/)
