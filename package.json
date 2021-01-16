@@ -16,7 +16,7 @@
   },
   "homepage": "https://gitee.com/qcyblm/qcyblm.gitee.io#readme",
   "devDependencies": {
-    "@qcyblm/vuepress-theme-vpx": "^1.0.6",
+    "@qcyblm/vuepress-theme-vpx": "^1.0.7",
     "vuepress": "^1.7.1"
   },
   "dependencies": {

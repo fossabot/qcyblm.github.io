@@ -1195,9 +1195,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@qcyblm/vuepress-theme-vpx@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "@qcyblm/vuepress-theme-vpx@npm:1.0.6::__archiveUrl=https%3A%2F%2Fregistry.npm.taobao.org%2F%40qcyblm%2Fvuepress-theme-vpx%2Fdownload%2F%40qcyblm%2Fvuepress-theme-vpx-1.0.6.tgz"
+"@qcyblm/vuepress-theme-vpx@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "@qcyblm/vuepress-theme-vpx@npm:1.0.7::__archiveUrl=https%3A%2F%2Fregistry.npm.taobao.org%2F%40qcyblm%2Fvuepress-theme-vpx%2Fdownload%2F%40qcyblm%2Fvuepress-theme-vpx-1.0.7.tgz"
   dependencies:
     "@vuepress/plugin-active-header-links": 1.7.1
     "@vuepress/plugin-nprogress": 1.7.1
@@ -1208,7 +1208,7 @@ __metadata:
     stylus-loader: ^3.0.2
     vuepress-plugin-container: ^2.0.2
     vuepress-plugin-smooth-scroll: ^0.0.10
-  checksum: 45250b2318ca298e8a549c375de3195fab226a4daf29461b51eb05ed106ab7e401795297f2176b8728cc3f242550392a8c78a8a6718d676819d7de298333119b
+  checksum: 93a5d842b9f5589eeca9bde06b810e32c3c79da2a189883d57c64c65480376f0595b63080498a6bacae7af0a78590c9487a09b1689397fd74eb8a16b02742cc7
   languageName: node
   linkType: hard
 
@@ -8244,7 +8244,7 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "qcyblm.gitee.io@workspace:."
   dependencies:
-    "@qcyblm/vuepress-theme-vpx": ^1.0.6
+    "@qcyblm/vuepress-theme-vpx": ^1.0.7
     "@vssue/api-gitee-v5": ^1.4.4
     "@vssue/vuepress-plugin-vssue": ^1.4.6
     moment: ^2.29.1
