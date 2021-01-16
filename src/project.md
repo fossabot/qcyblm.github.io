@@ -11,8 +11,8 @@
 - name: '@qcyblm/vpx'
   desc: 一款基于 VuePress 开发的主题 <Badge text="Git 仓库" type="tip"/>
   avatar: https://qcyblm.gitee.io/vuepress-theme-vpx/favicon.ico
-  link: https://github.com/qcyblm/vuepress-theme-vpx
-  icon: 'fab fa-github'
+  link: https://gitee.com/qcyblm/vuepress-theme-vpx
+  icon: 'fab fa-gitee'
 ```
 :::
 
