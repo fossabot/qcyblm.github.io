@@ -12,31 +12,12 @@ features:
 - title: 技术博客
   desc: 收集Windows开源软件相关网站和个人学习研究网站开发相关笔记等。
 footerWrap:
-- title: 友情链接
-  icon: fa fa-link
+- title: 联系方式
+  icon: fa fa-comments
   item:
-  - text: 大贤者初春令月
-    link: https://mourinaruto.github.io/
-  - text: Dism++
-    link: https://www.chuyu.me/
-  - text: WINOS
-    link: https://www.winos.me/
-  - text: XIAO_YANG的主站
-    link: https://xiaoyang.pw/
-  - text: 提莫酱的博客
-    link: https://www.timochan.cn/
-  - text: 黑夜键盘手
-    link: https://leacoder.gitee.io/leacloudreco
-  - text: 智慧问题
-    link: https://zhissue.cn/
-  - text: 阿猫阿狗
-    link: https://blog.yhz610.com/
-  - text: 'IT街'
-    link: 'http://www.itstreet.top/'
-  - text: "Tien's blog"
-    link: 'https://www.dodolo.top/vuepress/'
-  - text: '龙爪槐守望者'
-    link: 'http://www.ftium4.com/'
+  - text: 'QQ 群'
+    desc: '1020106347'
+    link: https://shang.qq.com/wpa/qunwpa?idkey=bf938e49775101ba186b4b59683b0c7ef617a20c7a05711ccf05301649e30501
 socialIcons:
 - type: 'GitHub'
   link: 'https://github.com/qcyblm'

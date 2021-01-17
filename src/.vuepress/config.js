@@ -32,6 +32,7 @@ module.exports = {
       { text: '文档', link: '/book/', icon: 'fa fa-book' },
       { text: '导航', link: '/nav', icon: 'fa fa-bookmark' },
       { text: '支持', link: '/support', icon: 'fa fa-bell' },
+      { text: '友情链接', link: '/friendlinks', icon: 'fa fa-link'}
     ],
     sidebar: {
       '/windows/': [
