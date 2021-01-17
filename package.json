@@ -20,8 +20,8 @@
     "vuepress": "^1.7.1"
   },
   "dependencies": {
-    "@vssue/api-gitee-v5": "^1.4.4",
-    "@vssue/vuepress-plugin-vssue": "^1.4.6",
+    "@vssue/api-gitee-v5": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.7",
     "moment": "^2.29.1"
   }
 }
