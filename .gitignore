@@ -11,7 +11,7 @@ jspm_packages/
 .yarn
 
 # vuepress output
-.vuepress/dist
+dist
 .temp
 .cache
 
