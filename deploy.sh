@@ -1,4 +1,5 @@
 set -e
+ssh-keyscan gitee.com >> ~/.ssh/known_hosts
 yarn
 git add .
 git commit -S -m 'Update documents.'

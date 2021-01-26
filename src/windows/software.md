@@ -170,6 +170,7 @@
  - [WDControl](https://whatk.me/wdcontrol/)
  - [Activate7UL](https://whatk.me/activate7ul/)
  - [WTDR](https://wtdr.whatk.me/)
+ - [HEU KMS Activator](https://github.com/zbezj/HEU_KMS_Activator)
  - [Defender Control](https://www.sordum.org/9480/defender-control-v1-6/)
  - [微PE工具箱](http://www.wepe.com.cn/)
 
