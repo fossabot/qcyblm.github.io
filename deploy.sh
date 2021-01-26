@@ -1,5 +1,5 @@
 set -e
-ssh-keyscan gitee.com >> ~/.ssh/known_hosts
+ssh-keyscan -t ecdsa-sha2-nistp256 gitee.com,212.64.62.183 >> ~/.ssh/known_hosts
 yarn
 git add .
 git commit -S -m 'Update documents.'
