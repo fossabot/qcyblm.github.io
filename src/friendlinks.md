@@ -22,10 +22,6 @@
   desc: 提莫酱的博客<br><br>
   avatar: https://zzr3.xyz/img/logo.png
   link: https://www.timochan.cn/
-- name: 黑夜键盘手
-  desc: 只要理解原理，就可有无穷变化。
-  avatar: https://leacoder.gitee.io/leacloudreco/favicon.ico
-  link: https://leacoder.gitee.io/leacloudreco
 - name: 智慧问题
   desc: Hello,world！I will solve your issue
   avatar: https://zhissue.cn/20171231/favicon.ico
