@@ -1,7 +1,8 @@
 set -e
 yarn
 git add .
-git commit -S -m 'Update documents.'
+read -p "Commits: " commit
+git commit -S -m $commit
 git push
 yarn build
 cd src/.vuepress/dist
