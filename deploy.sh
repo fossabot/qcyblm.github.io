@@ -2,7 +2,7 @@ set -e
 yarn
 git add .
 read -p "Commits: " commit
-git commit -S -m $commit
+git commit -S -m "$commit"
 git push
 yarn build
 cd src/.vuepress/dist
