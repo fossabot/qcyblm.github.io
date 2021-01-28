@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.webp
+heroImage: https://s.gravatar.com/avatar/2f98767cf2ebdddf69824f600f52c256?s=80
 heroText: 青春永不落幕
 tagline: 记录软件下载平台和网络学习过程中的笔记：VuePress、Git、Windows
 action:

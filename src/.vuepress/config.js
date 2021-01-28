@@ -16,7 +16,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    logo: '/assets/img/logo.webp',
+    logo: 'https://s.gravatar.com/avatar/2f98767cf2ebdddf69824f600f52c256?s=80',
     nav: [
       { text: '主页', link: '/', icon: 'fa fa-home' },
       { text: '关于', link: '/about', icon: 'fa fa-user' },
