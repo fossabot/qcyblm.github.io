@@ -3,10 +3,11 @@
 >软件来自各自官网
 
 ## 聊天工具
- - [QQ](https://im.qq.com/download/)
- - [TIM](https://office.qq.com/download.html)
+ - [QQ](https://im.qq.com/pcqq/)
+ - [TIM](https://office.qq.com/)
  - [微信](https://pc.weixin.qq.com/)
  - [阿里旺旺](https://alimarket.taobao.com/markets/qnww/portal-group/ww/)
+ - [千牛](https://cts.alibaba.com/product/qianniu)
  - [钉钉](https://www.dingtalk.com/)
  - [YY语音](https://www.yy.com/)
 
@@ -16,10 +17,10 @@
  - [QQ浏览器](https://browser.qq.com/)
  - [搜狗浏览器](https://ie.sogou.com/)
  - [2345浏览器](https://ie.2345.cc/)
- - [谷歌浏览器](https://www.google.cn/intl/zh-CN/chrome/)
- - [火狐浏览器](https://www.mozilla.org/firefox/all/)
+ - [谷歌浏览器](https://www.google.cn/chrome/)
+ - [火狐浏览器](https://www.firefox.com.cn/)
  - [Microsoft Edge](https://www.microsoft.com/edge)
- - [百分浏览器](https://www.centbrowser.cn/history.html)
+ - [百分浏览器](https://www.centbrowser.cn/)
  - [星愿浏览器](https://www.twinkstar.com/)
  - [一点浏览器](http://www.yidianliulan.com/)
 
@@ -29,7 +30,7 @@
  - [手心输入法](http://www.xinshuru.com/)
  - [百度输入法](https://shurufa.baidu.com/)
  - [讯飞输入法](https://srf.xunfei.cn/)
- - [极品五笔](http://jpwb.cc/rjxz.htm)
+ - [极品五笔](http://jpwb.cc/)
  - [极点五笔](http://www.freewb.org/)
  - [万能五笔](http://www.wnwb.com/)
  - [小狼毫输入法](https://rime.im/)
@@ -45,7 +46,7 @@
  - [QQ影音](https://player.qq.com/)
  - [腾讯视频](https://v.qq.com/)
  - [爱奇艺](https://www.iqiyi.com/)
- - [爱奇艺万能联播](http://static-s.iqiyi.com/wnbf/get.html)
+ - [爱奇艺万能联播](https://static-s.iqiyi.com/wnbf/get.html)
  - [芒果TV](https://www.mgtv.com/)
  - [央视影音](https://app.cctv.com/)
  - [优酷](https://www.youku.com/)
@@ -61,40 +62,40 @@
  - [AIMP](https://www.aimp.ru/)
 
 ## 压缩软件
- - [WinRAR](https://www.rarlab.com/)
- - [7-Zip](https://www.7-zip.org/)
+ - [WinRAR](http://www.winrar.com.cn/)
+ - [7-Zip](https://sparanoid.com/lab/7z/)
  - [Bandizip](https://www.bandisoft.com/bandizip/)
- - [360 Zip](https://www.360totalsecurity.com/zh-cn/360zip/)
+ - [360压缩](https://yasuo.360.cn/)
  - [7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd)
 
 ## 办公软件
  - [Microsoft Office](https://www.office.com/)
- - [WPS Office 2019](https://pc.wps.cn/)
+ - WPS Office 2019：[个人版](https://pc.wps.cn/) [教育版](http://ncre.neea.edu.cn/html1/report/1507/861-1.htm)
  - [XMind](https://www.xmind.cn/)
- - [LibreOffice](https://www.libreoffice.org/)
- - [OpenOffice](https://www.openoffice.org/)
+ - [LibreOffice](https://zh-cn.libreoffice.org/)
+ - [OpenOffice](https://www.openoffice.org/zh-cn/)
 
 ## 图像处理
  - [Imagine](http://www.nyam.pe.kr/dev/imagine/)
- - [Snipaste](https://www.snipaste.com/)
- - [爱奇艺万能联播](http://static-s.iqiyi.com/wnbf/get.html)
+ - [Snipaste](https://zh.snipaste.com/)
+ - [爱奇艺万能联播](https://static-s.iqiyi.com/wnbf/get.html)
  - [2345看图王](http://pic.2345.cc/)
  - [GIMP](https://www.gimp.org/)
  - [Honeyview](https://www.bandisoft.com/honeyview/)
  - [Honeycam](https://www.bandisoft.com/honeycam/)
- - [图片工厂](http://www.pcfreetime.com/picosmos/index.php)
- - [Waifu2x-Extension-GUI ](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
+ - [图片工厂](http://www.pcfreetime.com/picosmos/)
+ - [Waifu2x-Extension-GUI ](https://gitee.com/aaronfeng0711/Waifu2x-Extension-GUI)
 
 ## 屏幕录制
- - [OBS Studio](https://obsproject.com/)
+ - [OBS Studio](https://obsproject.com/zh-cn)
 
 ## 文件处理
- - [Everything](https://www.voidtools.com/)
+ - [Everything](https://www.voidtools.com/zh-cn)
  - [Geek](http://www.geekuninstaller.com/)
  - [MyHash](https://github.com/drag0n-app/)
  - [SumatraPDF](https://www.sumatrapdfreader.org/)
  - [FastCopy](https://fastcopy.jp/)
- - [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html)
+ - [格式工厂](http://www.pcfreetime.com/formatfactory/CN/)
  - [小丸工具箱](https://maruko.appinn.me/)
  - [Q-Dir](http://www.softwareok.com/?seite=Freeware/Q-Dir)
  - [BelaUtils](https://github.com/fcharlie/BelaUtils)
@@ -109,24 +110,22 @@
 
 ## 远程工具
 - [向日葵远程](https://sunlogin.oray.com/)
-- [TeamViewer](https://www.teamviewer.cn/)
-- [AnyDesk](https://anydesk.com/)
+- [TeamViewer](https://www.teamviewer.cn/cn)
+- [AnyDesk](https://anydesk.com/zhs)
 - [ToDesk](https://www.todesk.com/)
 - [DBadmin穿透远程](https://www.slser.com/)
 
 ## 开发软件
- - [Visual Studio](https://visualstudio.microsoft.com/zh-hans/vs/)
- - [Visual Studio Code](https://code.visualstudio.com/)
- - [Sublime Text](https://www.sublimetext.com/)
+ - [Visual Studio](https://visualstudio.microsoft.com/zh-hans/)
+ - [Sublime Text](http://www.sublimetext.cn/)
  - [HBuilder X](https://www.dcloud.io/hbuilderx.html)
  - [Brackets](http://brackets.io/)
  - [Atom](https://atom.io/)
  - [Typora](https://www.typora.io/)
  - [Notepad3](https://www.rizonesoft.com/downloads/notepad3/)
- - [Git](https://git-scm.com/)
- - [Node.js](https://nodejs.org/)
- - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
- - [PyCharm](https://www.jetbrains.com/pycharm/)
+ - [淘宝 NPM 镜像](https://npm.taobao.org/)
+ - [IntelliJ IDEA](https://www.jetbrains.com/zh-cn/idea/)
+ - [PyCharm](https://www.jetbrains.com/zh-cn/pycharm/)
 
 ## 硬件检测
  - [鲁大师](https://www.ludashi.com/)
@@ -142,7 +141,7 @@
  - [逍遥安卓模拟器](https://www.xyaz.cn/)
 
 ## 虚拟机
- - [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)
+ - [VMware Workstation Player](https://www.vmware.com/cn/products/workstation-player.html)
  - [VirtualBox](https://www.virtualbox.org/)
 
 ## 分区管理
@@ -150,8 +149,11 @@
  - [分区助手](https://www.disktool.cn/)
 
 ## 驱动管理
- - [360驱动大师](http://weishi.360.cn/qudongdashi/index.html)
+ - [360驱动大师](http://weishi.360.cn/qudongdashi/)
  - [驱动精灵](https://www.drivergenius.com/)
+ - 万能驱动 7：[官网](https://www.qdcx.net/) [论坛](https://www.itsk.com/ed)
+ - [驱动总裁](https://www.sysceo.com/dc)
+ - [英特尔® 驱动程序和支持助手](https://www.intel.cn/content/www/cn/zh/support/detect.html)
  - [NVIDIA 驱动程序下载](https://www.nvidia.cn/Download/index.aspx?lang=cn)
  - [AMD 驱动程序与支持](https://www.amd.com/zh-hans/support)
 
@@ -160,8 +162,8 @@
  - [XORBOOT](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=157812&fromuid=755326)
 
 ## 系统管理工具
- - [NSudo](https://m2team.github.io/NSudo/)
- - [Dism++](http://www.chuyu.me/)
+ - [NSudo](https://m2team.github.io/NSudo/zh-hans/)
+ - [Dism++](https://www.chuyu.me/zh-Hans/)
  - [软媒魔方](https://mofang.ruanmei.com/)
 
 ## 系统辅助工具
@@ -173,13 +175,17 @@
  - [HEU KMS Activator](https://github.com/zbezj/HEU_KMS_Activator)
  - [Defender Control](https://www.sordum.org/9480/defender-control-v1-6/)
  - [微PE工具箱](http://www.wepe.com.cn/)
+ - 优启通：[官网](https://www.upe.net/) [论坛](https://www.itsk.com/eu)
+ - [Easy Sysprep](https://www.itsk.com/es)
+ - [U盘魔术师](https://www.sysceo.com/usm)
+ - [SC封装工具](https://www.sysceo.com/sc)
 
 ## 系统安装工具
- - [WinNTSetup](https://msfn.org/board/topic/149612-winntsetup-v41/)
+ - [WinNTSetup](https://msfn.org/board/topic/149612-winntsetup/)
 
 ## 制作可启动U盘工具
  - [Ventoy](https://www.ventoy.net/)
  - [Rufus](https://rufus.ie/)
- - [FbinstTool](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=189221&fromuid=755326)
+ - [FbinstTool](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=189221)
 
 <Vssue :title="$title" />
