@@ -12,7 +12,7 @@ cd gh-pages
 git config user.name 'qcyblm'
 git config user.email '8064994+qcyblm@user.noreply.gitee.com'
 rm -rf *
-cp -a ../dist gh-pages
+cp -a ../dist .
 git add -A
 git commit -m "deploy: $(date +"%Y年%m月%d日 %T %:z")"
 git push origin gh-pages
