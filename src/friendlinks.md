@@ -42,6 +42,10 @@
   desc: 一个帮助交互设计师成长的互联网传说
   avatar: http://pic.ftium4.com/20201226034238.png
   link: http://www.ftium4.com/
+- name: ql's HexoBlog
+  desc: It’s a beautiful day! <br><br>
+  avatar: https://ql-isaac.cn/img/favicon.png
+  link: https://ql-isaac.cn/
 ```
 ::: 
 
