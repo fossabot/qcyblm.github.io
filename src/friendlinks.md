@@ -46,6 +46,10 @@
   desc: It’s a beautiful day! <br><br>
   avatar: https://ql-isaac.cn/img/favicon.png
   link: https://ql-isaac.cn/
+- name: 爱即是诗
+  desc: AI&GIS博客
+  avatar: https://www.aigisss.com/blog/img/favicon.png
+  link: https://www.aigisss.com/blog/
 ```
 ::: 
 
