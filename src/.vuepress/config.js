@@ -6,6 +6,7 @@ module.exports = {
     ['meta', { name: 'baidu-site-verification', content: 'code-jNjoWXWohM' }],
     ['link', { rel: 'icon', href: './favicon.ico', type: 'image/x-icon' }],
     ['link', { rel: 'shortcut icon', href: './favicon.ico', type: 'image/x-icon' }],
+    ['meta', { name: 'baidu-site-verification', content: 'code-gxXVYQex35' }]
   ],
   temp: '.temp',
   cache: '.cache',
