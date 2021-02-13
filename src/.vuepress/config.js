@@ -3,10 +3,9 @@ module.exports = {
   title: '青春永不落幕',
   description: '使用合适的软件和代码来达到最佳效果',
   head: [
-    ['meta', { name: 'baidu-site-verification', content: 'code-jNjoWXWohM' }],
+    ['meta', { name: 'baidu-site-verification', content: "code-gxXVYQex35" }],
     ['link', { rel: 'icon', href: './favicon.ico', type: 'image/x-icon' }],
-    ['link', { rel: 'shortcut icon', href: './favicon.ico', type: 'image/x-icon' }],
-    ['meta', { name: 'baidu-site-verification', content: 'code-gxXVYQex35' }]
+    ['link', { rel: 'shortcut icon', href: './favicon.ico', type: 'image/x-icon' }]
   ],
   temp: '.temp',
   cache: '.cache',
