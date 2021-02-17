@@ -9,8 +9,8 @@ cd src/.vuepress
 rm -rf gh-pages
 git clone -q --depth=1 -b gh-pages git@gitee.com:qcyblm/qcyblm.git gh-pages
 cd gh-pages
-git config user.name $name
-git config user.email $email
+git config user.name 'qcyblm'
+git config user.email '8064994+qcyblm@user.noreply.gitee.com'
 rm -rf *
 cp -a ../dist/* .
 git add -A
