@@ -20,7 +20,7 @@
   link: https://xiaoyang.pw/
 - name: 提莫酱的博客
   desc: 提莫酱的博客<br><br>
-  avatar: https://zzr3.xyz/img/logo.png
+  avatar: https://www.timochan.cn/favicon.ico
   link: https://www.timochan.cn/
 - name: 智慧问题
   desc: Hello,world！I will solve your issue
