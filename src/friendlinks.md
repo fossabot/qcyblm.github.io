@@ -50,6 +50,10 @@
   desc: AI&GIS博客 <br> <br>
   avatar: https://www.aigisss.com/blog/img/favicon.png
   link: https://www.aigisss.com/blog/
+- name: 御驾亲征
+  desc: 好好学习，天天向上！ <br> <br>
+  avatar: https://cdn.jsdelivr.net/gh/evrstr/img/blog_evrstr/8_3%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91.png
+  link: https://evrstr.cc/
 ```
 ::: 
 
