@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<!-- Free Sitemap Generator http://www.sitemapx.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://qcyblm.gitee.io/</loc>
+<priority>1.0</priority>
+<lastmod>2021-02-22T10:33:57+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>https://qcyblm.gitee.io/about.html</loc>
+<priority>0.8</priority>
+<lastmod>2021-02-22T18:35:14+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>https://qcyblm.gitee.io/friendlinks.html</loc>
+<priority>0.8</priority>
+<lastmod>2021-02-22T18:35:14+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>https://qcyblm.gitee.io/nav.html</loc>
+<priority>0.8</priority>
+<lastmod>2021-02-22T18:35:14+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>https://qcyblm.gitee.io/project.html</loc>
+<priority>0.8</priority>
+<lastmod>2021-02-22T18:35:14+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>https://qcyblm.gitee.io/support.html</loc>
+<priority>0.8</priority>
+<lastmod>2021-02-22T18:35:14+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+</urlset>
