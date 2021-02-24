@@ -58,6 +58,10 @@
   desc: 将我收藏，来日方长 <br> <br>
   avatar: "https://www.kococ.cn/favicon.ico"
   link: https://www.kococ.cn/
+- name: "1980's Maker"
+  desc: 一个出生于80年代的程序员  <br> <br>
+  avatar: "https://80shuo.com/logo.jpg"
+  link: https://80shuo.com/
 ```
 ::: 
 
