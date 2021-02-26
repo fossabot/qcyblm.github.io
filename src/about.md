@@ -30,12 +30,12 @@
 - 软件
   - 操作系统内核：Windows NT
   - Windows 操作系统主要版本：Windows 7、Windows 10
-  - Web浏览器：Firefox、Google Chrome
+  - Web浏览器：Firefox、Google Chrome、Microsoft Edge
   - 设计编辑器：CorelDRAW、Adobe Photoshop、Visual Studio Code
   - 压缩软件：7-Zip
   - 截图工具：Snipaste
   - 媒体播放：爱奇艺万能播放器
-  - 网盘传输：百度网盘、天翼云、OneDrive
+  - 网盘传输：百度网盘、天翼云
   - 社交聊天：微信、TIM
 
 ## 电子设备
