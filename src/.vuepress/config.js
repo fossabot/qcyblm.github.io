@@ -4,7 +4,8 @@ module.exports = {
   head: [
     ['meta', { name: 'baidu-site-verification', content: "code-gxXVYQex35" }],
     ['link', { rel: 'icon', href: './favicon.ico', type: 'image/x-icon' }],
-    ['link', { rel: 'shortcut icon', href: './favicon.ico', type: 'image/x-icon' }]
+    ['link', { rel: 'shortcut icon', href: './favicon.ico', type: 'image/x-icon' }],
+    ['meta', { name: 'keywords', content: '青春永不落幕,博客,技术文档,软件收集' }]    
   ],
   temp: '.temp',
   cache: '.cache',
@@ -15,7 +16,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    logo: 'https://s.gravatar.com/avatar/2f98767cf2ebdddf69824f600f52c256?s=80',
+    logo: '/assets/img/logo.webp',
     nav: [
       { text: '主页', link: '/', icon: 'fa fa-home' },
       { text: '关于', link: '/about', icon: 'fa fa-user' },

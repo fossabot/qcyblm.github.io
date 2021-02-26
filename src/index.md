@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://s.gravatar.com/avatar/2f98767cf2ebdddf69824f600f52c256?s=280
+heroImage: /hero.webp
 heroText: 青春永不落幕
 tagline: 记录软件下载平台和网络学习过程中的笔记：VuePress、Git、Windows
 action:
@@ -24,7 +24,7 @@ socialIcons:
 - type: 'QQ'
   link: 'http://wpa.qq.com/msgrd?v=3&uin=2559825061&site=qq&menu=yes'
 - type: 'Email'
-  link: 'mailto:qcyblm@163.com'
+  link: 'mailto:qcyblm@139.com'
 - type: 'Telegram'
   link: 'https://t.me/qcyblm'
 ---
