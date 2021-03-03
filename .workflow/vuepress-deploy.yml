@@ -25,10 +25,10 @@ stages:
                 echo "${ACTION_DEPLOY_KEY}" > ~/.ssh/id_rsa
                 chmod 600 ~/.ssh/id_rsa
                 ssh-keyscan gitee.com >> ~/.ssh/known_hosts
-                git clone -q --depth=1 -b gh-pages "${GITHUB_ORIGIN}" gh-pages
+                git clone -q --depth=1 -b gh-pages "${ACCESS_ORIGIN}" gh-pages
                 cd gh-pages
-                git config user.name "${GITHUB_NAME}"
-                git config user.email "${GITHUB_EMAIL}"
+                git config user.name "${ACCESS_NAME}"
+                git config user.email "${ACCESS_EMAIL}"
                 rm -rf *
                 cp -a ../dist/* .
                 git add -A
