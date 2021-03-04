@@ -23,6 +23,7 @@
  - [百分浏览器](https://www.centbrowser.cn/)
  - [星愿浏览器](https://www.twinkstar.com/)
  - [一点浏览器](http://www.yidianliulan.com/)
+ - [水獭浏览器](https://otter-browser.org/)
 
 ## 输入法
  - [搜狗输入法](https://pinyin.sogou.com/)
@@ -100,13 +101,15 @@
  - [Q-Dir](http://www.softwareok.com/?seite=Freeware/Q-Dir)
  - [BelaUtils](https://github.com/fcharlie/BelaUtils)
 
-## 上传下载
+## 网络传输
  - [百度网盘](https://pan.baidu.com/)
  - [迅雷](https://www.xunlei.com/)
  - [Internet Download Manager](http://www.internetdownloadmanager.com/)
  - [Free Download Manager](https://www.freedownloadmanager.org/)
  - [OneDrive](https://go.microsoft.com/fwlink/?LinkId=263764)
  - [Xdown](https://xdown.org/)
+ - [SwitchHosts](https://oldj.github.io/SwitchHosts/)
+ - [Git for Windows](https://gitforwindows.org/)
 
 ## 远程工具
 - [向日葵远程](https://sunlogin.oray.com/)
