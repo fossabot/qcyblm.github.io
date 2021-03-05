@@ -8,8 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev src --no-cache",
-    "build": "vuepress build src --no-cache",
-    "deploy": "bash deploy.sh"
+    "build": "vuepress build src --no-cache"
   },
   "bugs": {
     "url": "https://gitee.com/qcyblm/qcyblm.gitee.io/issues"
