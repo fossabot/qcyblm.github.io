@@ -25,4 +25,4 @@ stages:
                 git config user.email "${ACCESS_EMAIL}"
                 git add -A
                 git commit -q -m "Auto Deploy from Gitee Go: $(date +"%Y年%m月%d日 %T %:z")"
-                git push -f https://${ACCESS_NAME}:${ACCESS_TOKEN}@gitee.com/${ACCESS_NAME}/qcyblm.git master:gh-pages
+                git push -f ${ACCESS_ORIGIN} master:gh-pages
