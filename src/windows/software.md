@@ -110,6 +110,7 @@
  - [Xdown](https://xdown.org/)
  - [SwitchHosts](https://oldj.github.io/SwitchHosts/)
  - [Git for Windows](https://gitforwindows.org/)
+ - [TortoiseGit](https://tortoisegit.org/)
 
 ## 远程工具
 - [向日葵远程](https://sunlogin.oray.com/)
