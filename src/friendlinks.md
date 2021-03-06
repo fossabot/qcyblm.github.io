@@ -62,6 +62,10 @@
   desc: 一个出生于80年代的程序员  <br> <br>
   avatar: "https://80shuo.com/logo.jpg"
   link: https://80shuo.com/
+- name: "大鸟の主页"
+  desc: "三人行，必有一人拖油瓶"
+  avatar: "https://api.dzzv.cn/api/qqlogo?qq=504567130"
+  link: "https://fudystudio.cn/"
 ```
 ::: 
 
