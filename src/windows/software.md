@@ -15,8 +15,8 @@
  - [360极速浏览器](https://browser.360.cn/ee/)
  - [360安全浏览器](https://browser.360.cn/)
  - [QQ浏览器](https://browser.qq.com/)
- - [搜狗浏览器](https://ie.sogou.com/)
- - [2345浏览器](https://ie.2345.cc/)
+ - [搜狗高速浏览器](https://ie.sogou.com/)
+ - [2345加速浏览器](https://ie.2345.cc/)
  - [谷歌浏览器](https://www.google.cn/chrome/)
  - [火狐浏览器](https://www.firefox.com.cn/)
  - [Microsoft Edge](https://www.microsoft.com/edge)
@@ -36,10 +36,14 @@
  - [万能五笔](http://www.wnwb.com/)
  - [小狼毫输入法](https://rime.im/)
  - [维软标准输入法](http://www.uighursoft.com/zh-CN/products/alkatip.html)
+ - [2345王牌输入法](https://pinyin.2345.cc/)
+ - [王码](http://www.wangma.net.cn/)
 
 ## 安全
  - [360安全卫士](https://weishi.360.cn/)
  - [腾讯电脑管家](https://guanjia.qq.com/)
+ - [金山毒霸](https://www.ijinshan.com/)
+ - [2345安全卫士](https://safe.2345.cc/)
  - [火绒](https://www.huorong.cn/)
  - [卡巴斯基](https://www.kaspersky.com.cn/)
 
@@ -58,7 +62,6 @@
  - [MPC-HC](https://mpc-hc.org/)
  - [网易云音乐](https://music.163.com/)
  - [QQ音乐](https://y.qq.com/)
- - [虾米音乐](https://www.xiami.com/)
  - [酷狗音乐](https://www.kugou.com/)
  - [AIMP](https://www.aimp.ru/)
 
@@ -68,6 +71,8 @@
  - [Bandizip](https://www.bandisoft.com/bandizip/)
  - [360压缩](https://yasuo.360.cn/)
  - [7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd)
+ - [2345好压](https://haozip.2345.cc/)
+ - [快压](http://www.kuaizip.com/)
 
 ## 办公软件
  - [Microsoft Office](https://www.office.com/)
@@ -86,6 +91,7 @@
  - [Honeycam](https://www.bandisoft.com/honeycam/)
  - [图片工厂](http://www.pcfreetime.com/picosmos/)
  - [Waifu2x-Extension-GUI ](https://gitee.com/aaronfeng0711/Waifu2x-Extension-GUI)
+ - [剪映](https://lv.ulikecam.com/)
 
 ## 屏幕录制
  - [OBS Studio](https://obsproject.com/zh-cn)
