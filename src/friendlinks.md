@@ -30,10 +30,6 @@
   desc: 我一直都在流浪，可我不曾见过海洋
   avatar: https://blog.yhz610.com/img/favicon.ico
   link: https://blog.yhz610.com/
-- name: 'IT街'
-  desc: 欢迎您的到来！<br><br>
-  avatar: http://itstreet.top/picture/itstreet/itstreet_ico_t.png
-  link: http://www.itstreet.top/
 - name: "Tien's blog"
   desc: "The truth is what it is, not what you see. "
   avatar: https://www.dodolo.top/vuepress/favicon.ico
