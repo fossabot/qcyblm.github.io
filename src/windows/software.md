@@ -63,6 +63,8 @@
  - [网易云音乐](https://music.163.com/)
  - [QQ音乐](https://y.qq.com/)
  - [酷狗音乐](https://www.kugou.com/)
+ - [酷我音乐](https://www.kuwo.cn/)
+ - [喜马拉雅](https://www.ximalaya.com/)
  - [AIMP](https://www.aimp.ru/)
 
 ## 压缩软件
@@ -109,10 +111,14 @@
  - [BelaUtils](https://github.com/fcharlie/BelaUtils)
  - [金山PDF](https://wpspdf.cn/)
  - [福昕](https://www.foxitsoftware.cn/)
+ - [有道云笔记](https://note.youdao.com/)
 
 ## 网络传输
  - [百度网盘](https://pan.baidu.com/)
  - [迅雷](https://www.xunlei.com/)
+ - [天翼云盘](https://cloud.189.cn/)
+ - [和彩云](https://yun.139.com/)
+ - [腾讯微云](https://www.weiyun.com/)
  - [Internet Download Manager](http://www.internetdownloadmanager.com/)
  - [Free Download Manager](https://www.freedownloadmanager.org/)
  - [OneDrive](https://go.microsoft.com/fwlink/?LinkId=263764)
@@ -200,5 +206,3 @@
  - [Ventoy](https://www.ventoy.net/)
  - [Rufus](https://rufus.ie/)
  - [FbinstTool](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=189221)
-
-<Vssue :title="$title" />
