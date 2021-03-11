@@ -65,6 +65,7 @@
  - [酷狗音乐](https://www.kugou.com/)
  - [酷我音乐](https://www.kuwo.cn/)
  - [喜马拉雅](https://www.ximalaya.com/)
+ - [咪咕视频](https://www.miguvideo.com/)
  - [AIMP](https://www.aimp.ru/)
 
 ## 压缩软件
@@ -125,6 +126,7 @@
  - [Xdown](https://xdown.org/)
  - [SwitchHosts](https://oldj.github.io/SwitchHosts/)
  - [Git for Windows](https://gitforwindows.org/)
+ - [Node.js](https://nodejs.org/zh-cn/)
  - [TortoiseGit](https://tortoisegit.org/)
 
 ## 远程工具
