@@ -92,6 +92,7 @@
  - [图片工厂](http://www.pcfreetime.com/picosmos/)
  - [Waifu2x-Extension-GUI ](https://gitee.com/aaronfeng0711/Waifu2x-Extension-GUI)
  - [剪映](https://lv.ulikecam.com/)
+ - [WPS图片](https://photoplus.wps.cn/)
 
 ## 屏幕录制
  - [OBS Studio](https://obsproject.com/zh-cn)
@@ -106,6 +107,8 @@
  - [小丸工具箱](https://maruko.appinn.me/)
  - [Q-Dir](http://www.softwareok.com/?seite=Freeware/Q-Dir)
  - [BelaUtils](https://github.com/fcharlie/BelaUtils)
+ - [金山PDF](https://wpspdf.cn/)
+ - [福昕](https://www.foxitsoftware.cn/)
 
 ## 网络传输
  - [百度网盘](https://pan.baidu.com/)
