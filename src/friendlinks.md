@@ -64,7 +64,7 @@
   link: "https://fudystudio.cn/"
 - name: "XUNX"
   desc: "前面风景很好，我的意思是别回头。"
-  avatar: "https://vue.xuzhipeng.com/images/xunx.svg"
+  avatar: "https://www.xuzhipeng.com/images/xunx.svg"
   link: "https://www.xuzhipeng.com/"
 ```
 ::: 
