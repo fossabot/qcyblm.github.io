@@ -67,6 +67,7 @@
  - [喜马拉雅](https://www.ximalaya.com/)
  - [咪咕视频](https://www.miguvideo.com/)
  - [AIMP](https://www.aimp.ru/)
+ - [射手影音](https://www.splayer.org/)
 
 ## 压缩软件
  - [WinRAR](http://www.winrar.com.cn/)
