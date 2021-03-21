@@ -14,8 +14,8 @@
 - 有学习 JavaScript、Vue 等前端框架的想法。
 - 寻找自己适合有发展的工作当中去。
 - 静态网站生成器重度用户。
-- 每日必上 Giee 和 GitHub。
-- 每日必用 Visual Studio Code。
+- 每日必上 [Giee](https://gitee.com/qcyblm) 和 [GitHub](https://github.com/qcyblm)。
+- 每日必用 [Visual Studio Code](https://code.visualstudio.com/)。
 
 ## 特长应用
 
@@ -23,7 +23,7 @@
   - Corel DRAW、Adobe Photoshop
 - 前端编辑器
   - Adobe Dreamweaver
-  - Visual Studio Code
+  - [Visual Studio Code](https://code.visualstudio.com/)
 
 ## 喜好
 
