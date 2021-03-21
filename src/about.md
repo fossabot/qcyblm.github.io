@@ -36,7 +36,7 @@
   - 截图工具：[Snipaste](https://zh.snipaste.com/)
   - 看图工具：[Imagine](http://www.nyam.pe.kr/dev/imagine/)
   - 媒体播放：[MPC-BE](https://sourceforge.net/projects/mpcbe/)
-  - 网盘传输：[百度网盘](https://pan.baidu.com/)、(天翼云)[https://cloud.189.cn/]
+  - 网盘传输：[百度网盘](https://pan.baidu.com/)、[天翼云](https://cloud.189.cn/)
   - 社交聊天：[微信](https://pc.weixin.qq.com/)、[TIM](https://office.qq.com/)
 
 ## 电子设备
