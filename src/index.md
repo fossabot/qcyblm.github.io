@@ -22,7 +22,7 @@ socialIcons:
 - type: 'GitHub'
   link: 'https://github.com/qcyblm'
 - type: 'QQ'
-  link: 'http://wpa.qq.com/msgrd?v=3&uin=2559825061&site=qq&menu=yes'
+  link: 'http://wpa.qq.com/msgrd?v=3&uin=1634125169&site=qq&menu=yes'
 - type: 'Email'
   link: 'mailto:qcyblm@139.com'
 - type: 'Telegram'
