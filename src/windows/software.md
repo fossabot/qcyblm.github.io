@@ -80,7 +80,7 @@
 
 ## 办公软件
  - [Microsoft Office](https://www.office.com/)
- - WPS Office 2019：[个人版](https://pc.wps.cn/) [教育版](http://ncre.neea.edu.cn/html1/report/1507/861-1.htm)
+ - WPS Office 2019：[个人版](https://platform.wps.cn/) [教育版](http://ncre.neea.edu.cn/html1/report/1507/861-1.htm)
  - [XMind](https://www.xmind.cn/)
  - [LibreOffice](https://zh-cn.libreoffice.org/)
  - [OpenOffice](https://www.openoffice.org/zh-cn/)
