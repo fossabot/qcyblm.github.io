@@ -25,8 +25,6 @@ socialIcons:
   link: 'http://wpa.qq.com/msgrd?v=3&uin=1634125169&site=qq&menu=yes'
 - type: 'Email'
   link: 'mailto:qcyblm@139.com'
-- type: 'Telegram'
-  link: 'https://t.me/qcyblm'
 ---
 
 ### 欢迎来到青春永不落幕的技术博客
