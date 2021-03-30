@@ -32,8 +32,8 @@
   link: https://blog.yhz610.com/
 - name: "Tien's blog"
   desc: "The truth is what it is, not what you see. "
-  avatar: https://www.dodolo.top/vuepress/favicon.ico
-  link: https://www.dodolo.top/vuepress/
+  avatar: http://www.dodolo.top/favicon.ico
+  link: http://www.dodolo.top/
 - name: 龙爪槐守望者
   desc: 一个帮助交互设计师成长的互联网传说
   avatar: http://pic.ftium4.com/20201226034238.png
