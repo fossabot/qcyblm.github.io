@@ -60,6 +60,9 @@ module.exports = {
       licensed: 'MIT',
     }
   },
+  markdown: {
+    lineNumbers: true
+  },
   plugins: {
     '@vuepress/last-updated': {
       transformer: (timestamp, lang) => {
@@ -67,6 +70,14 @@ module.exports = {
         moment.locale(lang)
         return moment(timestamp).format("YYYY-MM-DD HH:mm")
       }
-    }
+    },
+    'vuepress-plugin-code-copy': {
+      align: 'bottom',
+      color: 'rgba(255,255,255,0.4)',
+      backgroundTransition: 'bottom',
+      backgroundColor: '#0075b8',
+      successText: '复制成功',
+      staticIcon: false,
+    },
   }
 }
