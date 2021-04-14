@@ -24,8 +24,8 @@
   link: https://www.timochan.cn/
 - name: 智慧问题
   desc: Hello,world！I will solve your issue
-  avatar: https://zhissue.cn/20171231/favicon.ico
-  link: https://zhissue.cn/
+  avatar: https://blog.zhissue.cn/20171231/favicon.ico
+  link: https://blog.zhissue.cn/
 - name: 阿猫阿狗
   desc: 我一直都在流浪，可我不曾见过海洋
   avatar: https://blog.yhz610.com/img/favicon.ico
