@@ -1,0 +1,84 @@
+title = "青春永不落幕"
+description = "使用合适的软件和代码来达到最佳效果"
+temp = ".temp"
+cache = ".cache"
+theme = "@qcyblm/vuepress-theme-vpx"
+[locales."/"]
+  lang = "zh-CN"
+[[head."meta"]]
+  name = "baidu-site-verification"
+  content = "code-gxXVYQex35"
+[[head."link"]]
+  rel = "icon"
+  href = "./favicon.ico"
+  type = "image/x-icon"
+[[head."link"]]
+  rel = "shortcut icon"
+  href = "./favicon.ico"
+  type = "image/x-icon"
+[[head."meta"]]
+  name = "keywords"
+  content = "青春永不落幕,技术文档,软件收集"
+[themeConfig]
+  logo = '/assets/img/logo.webp'
+  editLinks = true
+  editLinkText = '编辑当前页'
+  lastUpdated = '最后更新时间'
+[themeConfig.repo]
+  platform = 'https://gitee.com/'
+  icon = 'fab fa-git'
+  owner = 'qcyblm'
+  repositories = 'qcyblm'
+[themeConfig.edit]
+  docsDir = 'src'
+
+[[themeConfig.nav]]
+  text = '主页'
+  link = '/'
+  icon = 'fa fa-home'
+[[themeConfig.nav]]
+  text = '关于'
+  link = '/about'
+  icon = 'fa fa-user'
+[[themeConfig.nav]]
+  text = '项目'
+  link = '/project'
+  icon = 'fa fa-th-large'
+[[themeConfig.nav]]
+  text = 'Windows'
+  icon = 'fab fa-windows'
+[[themeConfig.nav.items]]
+  text = 'Windows常用软件下载官网'
+  link = '/windows/software'
+[[themeConfig.nav.items]]
+  text = 'Windows PE 工具'
+  link = '/windows/wepe'
+[[themeConfig.nav]]
+  text = '文档'
+  link = '/book/'
+  icon = 'fa fa-book'
+[[themeConfig.nav]]
+  text = '导航'
+  link = '/nav'
+  icon = 'fa fa-bookmark'
+[[themeConfig.nav]]
+  text = '支持'
+  link = '/support'
+  icon = 'fa fa-bell'
+[[themeConfig.nav]]
+  text = '友链'
+  link = '/friendlinks'
+  icon = 'fa fa-link'
+[themeConfig.sidebar]
+  "/windows/" = [
+    '/windows/software',
+    '/windows/wepe',
+]
+[themeConfig.footer]
+  createYear = '2020'
+  author = 'qcyblm'
+  authorLink = 'https =//qcyblm.gitee.io/'
+  licensedLink = 'https =//gitee.com/qcyblm/qcyblm/blob/master/LICENSE'
+  licensed = 'MIT'
+[markdown]
+  lineNumbers = true
