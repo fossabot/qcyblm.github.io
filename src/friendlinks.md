@@ -32,12 +32,12 @@
   link: https://blog.yhz610.com/
 - name: "Tien's blog"
   desc: "The truth is what it is, not what you see. "
-  avatar: http://www.dodolo.top/favicon.ico
-  link: http://www.dodolo.top/
+  avatar: https://www.dodolo.top/favicon.ico
+  link: https://www.dodolo.top/
 - name: 龙爪槐守望者
   desc: 一个帮助交互设计师成长的互联网传说
-  avatar: http://pic.ftium4.com/20201226034238.png
-  link: http://www.ftium4.com/
+  avatar: https://pic.ftium4.com/20201226034238.png
+  link: https://www.ftium4.com/
 - name: ql's HexoBlog
   desc: It’s a beautiful day! <br><br>
   avatar: https://ql-isaac.cn/img/favicon.png
