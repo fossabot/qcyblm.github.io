@@ -11,8 +11,8 @@ theme = "@qcyblm/vuepress-theme-vpx"
     { name = "keywords", content = "青春永不落幕,技术文档,软件收集" },
   ] 
   link = [
-    { rel = "icon", href = "favicon.ico", type = "image/x-icon"},
-    { rel = "shortcut icon", href = "favicon.ico", type = "image/x-icon"}
+    { rel = "icon", href = "/favicon.ico", type = "image/x-icon"},
+    { rel = "shortcut icon", href = "/favicon.ico", type = "image/x-icon"}
   ]
 [themeConfig]
   logo = '/assets/img/logo.webp'
