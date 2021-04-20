@@ -73,7 +73,7 @@ theme = "@qcyblm/vuepress-theme-vpx"
   "/windows/" = [
     '/windows/software',
     '/windows/wepe',
-]
+  ]
 [themeConfig.footer]
   createYear = '2020'
   author = 'qcyblm'
@@ -82,3 +82,20 @@ theme = "@qcyblm/vuepress-theme-vpx"
   licensed = 'MIT'
 [markdown]
   lineNumbers = true
+[plugins.'@vuepress/plugin-last-updated'.dateOptions]
+  hour12 = false
+  timeZone = 'Asia/Shanghai'
+  year = "numeric"
+  month = "2-digit"
+  day = "2-digit"
+  weekday = "long"
+  hour = "2-digit"
+  minute = "2-digit"
+  second = "numeric"
+[plugins.'vuepress-plugin-code-copy']
+  align = 'bottom'
+  color = 'rgba(255,255,255,0.4)'
+  backgroundTransition = 'bottom'
+  backgroundColor = '#0075b8'
+  successText = '复制成功'
+  staticIcon = false
