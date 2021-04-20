@@ -34,7 +34,7 @@ theme = "@qcyblm/vuepress-theme-vpx"
     { text = '支持', link = '/support', icon = 'fa fa-bell'},
     { text = '友链', link = '/friendlinks', icon = 'fa fa-link'},
   ]
-  footer = { createYear = '2020', author = 'qcyblm', authorLink = 'https =//qcyblm.gitee.io/', licensedLink = 'https =//gitee.com/qcyblm/qcyblm/blob/master/LICENSE', licensed = 'MIT'} 
+  footer = { createYear = '2020', author = 'qcyblm', authorLink = 'https://qcyblm.gitee.io/', licensedLink = 'https://gitee.com/qcyblm/qcyblm/blob/master/LICENSE', licensed = 'MIT'} 
 [themeConfig.sidebar]
   "/windows/" = [
     '/windows/software',
