@@ -26,4 +26,4 @@ stages:
                 git add -A
                 git commit -q -m "Auto Deploy from Gitee Go: $(date +"%Y-%m-%d %H:%M")"
                 git push -f ${ACCESS_ORIGIN} master:gh-pages
-                curl -H 'Content-Type:text/plain' --data-binary @urls.txt ${URLS}
+                curl -H 'Content-Type:text/plain' --data-binary @urls.txt "${URLS}"
