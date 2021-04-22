@@ -9,10 +9,19 @@ theme = "@qcyblm/vuepress-theme-vpx"
   meta = [
     { name = "baidu-site-verification", content = "code-gxXVYQex35" },
     { name = "keywords", content = "青春永不落幕,技术文档,软件收集" },
+    { name = 'theme-color', content = '#058CF' },
+    { name = 'apple-mobile-web-app-capable', content = 'yes' },
+    { name = 'apple-mobile-web-app-status-bar-style', content = 'black' },
+    { name = 'msapplication-TileImage', content = '/icons/msapplication-icon-144x144.png' },
+    { name = 'msapplication-TileColor', content = '#000000' }
+
   ] 
   link = [
     { rel = "icon", href = "/favicon.ico", type = "image/x-icon"},
-    { rel = "shortcut icon", href = "/favicon.ico", type = "image/x-icon"}
+    { rel = "shortcut icon", href = "/favicon.ico", type = "image/x-icon"},
+    { rel = 'manifest', href = '/manifest.json' },
+    { rel = 'apple-touch-icon', href = '/icons/apple-touch-icon-152x152.png' },
+    { rel = 'mask-icon', href = '/icons/safari-pinned-tab.svg', color = '#058CF' },
   ]
 [themeConfig]
   logo = '/assets/img/logo.webp'
@@ -42,15 +51,7 @@ theme = "@qcyblm/vuepress-theme-vpx"
   ]
 [markdown]
   lineNumbers = true
-[plugins.'@vuepress/plugin-last-updated'.dateOptions]
-  hour12 = false
-  timeZone = 'Asia/Shanghai'
-  year = "numeric"
-  month = "2-digit"
-  day = "2-digit"
-  weekday = "long"
-  hour = "2-digit"
-  minute = "2-digit"
-  second = "numeric"
 [plugins]
+  '@vuepress/plugin-last-updated' = { dateOptions = { hour12 = false, timeZone = 'Asia/Shanghai', year = "numeric", month = "2-digit", day = "2-digit", hour = "2-digit", minute = "2-digit" } }
   'vuepress-plugin-code-copy' = { align = 'bottom', color = 'rgba(255,255,255,0.4)', backgroundTransition = 'bottom', backgroundColor = '#0075b8', successText = '复制成功', staticIcon = false }
+  "@vuepress/plugin-pwa" = { serviceWorker = 'true' , updatePopup = { buttonText = '发现新内容可用', message = '刷新' } }
