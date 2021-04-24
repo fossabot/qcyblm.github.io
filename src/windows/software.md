@@ -130,6 +130,7 @@
  - [Git for Windows](https://gitforwindows.org/)
  - [Node.js](https://nodejs.org/zh-cn/)
  - [TortoiseGit](https://tortoisegit.org/)
+ - [Node Version Manager (nvm) for Windows](https://github.com/coreybutler/nvm-windows/releases)
 
 ## 远程工具
 - [向日葵远程](https://sunlogin.oray.com/)
