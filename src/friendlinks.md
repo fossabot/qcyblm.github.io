@@ -14,10 +14,6 @@
   desc: 前沿的精简系统下载<br><br>
   avatar: https://www.winos.me/wp-content/uploads/2016/03/favicon.ico
   link: https://www.winos.me/
-- name: XIAO_YANG的主站
-  desc: XIAO_YANG的主站<br><br>
-  avatar: https://xiaoyang.pw/ico/ico.png
-  link: https://xiaoyang.pw/
 - name: 提莫酱的博客
   desc: 提莫酱的博客<br><br>
   avatar: https://www.timochan.cn/favicon.ico
@@ -58,10 +54,6 @@
   desc: 一个出生于80年代的程序员  <br> <br>
   avatar: "https://80shuo.com/logo.jpg"
   link: https://80shuo.com/
-- name: "大鸟の主页"
-  desc: "三人行，必有一人拖油瓶 <br> <br>"
-  avatar: "https://api.dzzv.cn/api/qqlogo?qq=504567130"
-  link: "https://fudystudio.cn/"
 - name: "XUNX"
   desc: "前面风景很好，我的意思是别回头。"
   avatar: "https://www.xuzhipeng.com/images/xunx.svg"
