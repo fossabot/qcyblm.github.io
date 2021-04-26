@@ -1,32 +1,40 @@
 {
-  "name": "qcyblm.gitee.io",
-  "version": "1.0.0",
-  "description": "一位静态网站设计爱好者",
-  "main": "index.js",
-  "repository": "git@gitee.com:qcyblm/qcyblm.gitee.io.git",
-  "author": "qcyblm",
-  "license": "MIT",
-  "scripts": {
-    "dev": "vuepress dev src --no-cache",
-    "build": "vuepress build src --no-cache"
-  },
-  "bugs": {
-    "url": "https://gitee.com/qcyblm/qcyblm.gitee.io/issues"
-  },
-  "homepage": "https://gitee.com/qcyblm/qcyblm.gitee.io#readme",
-  "devDependencies": {
-    "@qcyblm/vuepress-theme-vpx": "^1.0.7",
-    "@vuepress/plugin-pwa": "^1.8.2",
-    "commitizen": "^4.2.3",
-    "vuepress": "^1.8.2"
-  },
-  "dependencies": {
-    "@fieldtech/simple-conventional-changelog": "^1.1.5",
-    "vuepress-plugin-code-copy": "^1.0.6"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/@fieldtech/simple-conventional-changelog"
-    }
-  }
+	"name": "qcyblm.gitee.io",
+	"version": "1.0.0",
+	"description": "一位静态网站设计爱好者",
+	"main": "index.js",
+	"repository": "git@gitee.com:qcyblm/qcyblm.gitee.io.git",
+	"author": "qcyblm",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vuepress dev src --no-cache",
+		"build": "vuepress build src --no-cache",
+		"commit": "cz"
+	},
+	"husky": {
+		"hooks": {
+			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+		}
+	},
+	"bugs": {
+		"url": "https://gitee.com/qcyblm/qcyblm.gitee.io/issues"
+	},
+	"homepage": "https://gitee.com/qcyblm/qcyblm.gitee.io#readme",
+	"devDependencies": {
+		"@commitlint/cli": "^12.1.1",
+		"@commitlint/config-conventional": "^12.1.1",
+		"@qcyblm/vuepress-theme-vpx": "^1.0.7",
+		"@vuepress/plugin-pwa": "^1.8.2",
+		"commitizen": "^4.2.3",
+		"husky": "^6.0.0",
+		"vuepress": "^1.8.2"
+	},
+	"dependencies": {
+		"vuepress-plugin-code-copy": "^1.0.6"
+	},
+	"config": {
+		"commitizen": {
+			"path": "node_modules/cz-conventional-changelog"
+		}
+	}
 }
