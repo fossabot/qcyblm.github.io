@@ -1,13 +1,14 @@
-## 友情链接
+# 友情链接
 
 ::: cardLinks
+
 ```yaml
 - name: 大贤者初春令月
   desc: 大贤者初春令月<br><br>
   avatar: https://mourinaruto.github.io/img/favicon.png
   link: https://mourinaruto.github.io/
 - name: Dism++
-  desc: '全球第一款基于 CBS 的 Dism GUI 实现。'
+  desc: "全球第一款基于 CBS 的 Dism GUI 实现。"
   avatar: https://www.chuyu.me/images/favicon.ico
   link: https://www.chuyu.me/
 - name: WINOS
@@ -59,7 +60,8 @@
   avatar: "https://www.xuzhipeng.com/images/xunx.svg"
   link: "https://www.xuzhipeng.com/"
 ```
-::: 
+
+:::
 
 ## 申请友链
 
@@ -67,11 +69,11 @@
 
 1. 网站合法合规，不接受违规网站的申请
 2. 需要有原创内容，且保持一定频率的更新
-3. 全站强制使用HTTPS，不接受使用HTTP协议网站的申请
+3. 全站强制使用 HTTPS，不接受使用 HTTP 协议网站的申请
 
 ::: tip 友情链接
-网站名称： 青春永不落幕  
-网站地址：https://qcyblm.gitee.io/  
-网站头像：https://qcyblm.gitee.io/favicon.ico  
-网站简介：一位网页设计和收集Windows平台软件的爱好者。
+网站名称： "青春永不落幕"  
+网站地址："https://qcyblm.gitee.io/"  
+网站头像："https://qcyblm.gitee.io/favicon.ico"  
+网站简介："一位网页设计和收集 Windows 平台软件的爱好者。"
 :::

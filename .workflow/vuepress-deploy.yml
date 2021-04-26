@@ -1,5 +1,5 @@
 name: vuepress-deploy
-displayName: 'vuepress-deploy'
+displayName: "vuepress-deploy"
 triggers:
   push:
     - matchType: PRECISE
@@ -7,22 +7,21 @@ triggers:
 stages:
   - stage:
       name: npm-build-stage
-      displayName: 'npm Stage'
+      displayName: "npm Stage"
       failFast: true
       steps:
         - step: npmbuild@1
           name: build and deploy
-          displayName: 'npm Step'
+          displayName: "npm Step"
           inputs:
             nodeVersion: 14.15
             goals: |
-                yarn config set registry https://r.npm.taobao.org
-                yarn
-                yarn build
-                cd src/.vuepress/dist
-                git init
-                git config user.name "${ACCESS_NAME}"
-                git config user.email "${ACCESS_EMAIL}"
-                git add -A
-                git commit -q -m "Auto Deploy from Gitee Go: $(date +"%Y-%m-%d %H:%M")"
-                git push -f ${ACCESS_ORIGIN} master:gh-pages
+              yarn
+              yarn build
+              cd src/.vuepress/dist
+              git init
+              git config user.name "${ACCESS_NAME}"
+              git config user.email "${ACCESS_EMAIL}"
+              git add -A
+              git commit -q -m "Auto Deploy from Gitee Go: $(date +"%Y-%m-%d %H:%M")"
+              git push -f ${ACCESS_ORIGIN} master:gh-pages

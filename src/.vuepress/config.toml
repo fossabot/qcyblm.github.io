@@ -1,57 +1,53 @@
-title = "青春永不落幕"
-description = "使用合适的软件和代码来达到最佳效果"
-temp = ".temp"
-cache = ".cache"
-theme = "@qcyblm/vuepress-theme-vpx"
-[locales."/"]
-  lang = "zh-CN"
+title = '青春永不落幕'
+description = '使用合适的软件和代码来达到最佳效果'
+temp = '.temp'
+cache = '.cache'
+theme = '@qcyblm/vuepress-theme-vpx'
+[locales.'/']
+lang = 'zh-CN'
 [head]
-  meta = [
-    { name = "baidu-site-verification", content = "code-gxXVYQex35" },
-    { name = "keywords", content = "青春永不落幕,技术文档,软件收集" },
-    { name = 'theme-color', content = '#058CF' },
-    { name = 'apple-mobile-web-app-capable', content = 'yes' },
-    { name = 'apple-mobile-web-app-status-bar-style', content = 'black' },
-    { name = 'msapplication-TileImage', content = '/icons/msapplication-icon-144x144.png' },
-    { name = 'msapplication-TileColor', content = '#000000' }
-
-  ] 
-  link = [
-    { rel = "icon", href = "/favicon.ico", type = "image/x-icon"},
-    { rel = "shortcut icon", href = "/favicon.ico", type = "image/x-icon"},
-    { rel = 'manifest', href = '/manifest.json' },
-    { rel = 'apple-touch-icon', href = '/icons/apple-touch-icon-152x152.png' },
-    { rel = 'mask-icon', href = '/icons/safari-pinned-tab.svg', color = '#0058CF' },
-  ]
+meta = [
+	{ name = 'baidu-site-verification', content = 'code-gxXVYQex35' },
+	{ name = 'keywords', content = '青春永不落幕,技术文档,软件收集' },
+	{ name = 'theme-color', content = '#058CF' },
+	{ name = 'apple-mobile-web-app-capable', content = 'yes' },
+	{ name = 'apple-mobile-web-app-status-bar-style', content = 'black' },
+	{ name = 'msapplication-TileImage', content = '/icons/msapplication-icon-144x144.png' },
+	{ name = 'msapplication-TileColor', content = '#000000' },
+]
+link = [
+	{ rel = 'icon', href = '/favicon.ico', type = 'image/x-icon' },
+	{ rel = 'shortcut icon', href = '/favicon.ico', type = 'image/x-icon' },
+	{ rel = 'manifest', href = '/manifest.json' },
+	{ rel = 'apple-touch-icon', href = '/icons/apple-touch-icon-152x152.png' },
+	{ rel = 'mask-icon', href = '/icons/safari-pinned-tab.svg', color = '#0058CF' },
+]
 [themeConfig]
-  logo = '/assets/img/logo.webp'
-  edit = { docsDir = 'src' }
-  editLinks = true
-  editLinkText = '编辑当前页'
-  lastUpdated = '最后更新时间'
-  repo = { platform = 'https://gitee.com/', icon = 'fab fa-git', owner = 'qcyblm', repositories = 'qcyblm' }
-  nav = [
-    { text = '主页', link = '/', icon = 'fa fa-home' },
-    { text = '关于', link = '/about', icon = 'fa fa-user'},
-    { text = '项目', link = '/project', icon = 'fa fa-th-large'},
-    { text = 'Windows', icon = 'fab fa-windows', items = [
-      { text = 'Windows常用软件下载官网', link = '/windows/software' },
-      { text = 'Windows PE 工具', link = '/windows/wepe' }
-     ] },
-    { text = '文档', link = '/book/', icon = 'fa fa-book'},
-    { text = '导航', link = '/nav', icon = 'fa fa-bookmark'},
-    { text = '支持', link = '/support', icon = 'fa fa-bell'},
-    { text = '友链', link = '/friendlinks', icon = 'fa fa-link'},
-  ]
-  footer = { createYear = '2020', author = 'qcyblm', authorLink = 'https://qcyblm.gitee.io/', licensedLink = 'https://gitee.com/qcyblm/qcyblm/blob/master/LICENSE', licensed = 'MIT'} 
+logo = '/assets/img/logo.webp'
+edit = { docsDir = 'src' }
+editLinks = true
+editLinkText = '编辑当前页'
+lastUpdated = '最后更新时间'
+repo = { platform = 'https://gitee.com/', icon = 'fab fa-git', owner = 'qcyblm', repositories = 'qcyblm' }
+nav = [
+	{ text = '主页', link = '/', icon = 'fa fa-home' },
+	{ text = '关于', link = '/about', icon = 'fa fa-user' },
+	{ text = '项目', link = '/project', icon = 'fa fa-th-large' },
+	{ text = 'Windows', icon = 'fab fa-windows', items = [
+		{ text = 'Windows常用软件下载官网', link = '/windows/software' },
+		{ text = 'Windows PE 工具', link = '/windows/wepe' },
+	] },
+	{ text = '文档', link = '/book/', icon = 'fa fa-book' },
+	{ text = '导航', link = '/nav', icon = 'fa fa-bookmark' },
+	{ text = '支持', link = '/support', icon = 'fa fa-bell' },
+	{ text = '友链', link = '/friendlinks', icon = 'fa fa-link' },
+]
+footer = { createYear = '2020', author = 'qcyblm', authorLink = 'https://qcyblm.gitee.io/', licensedLink = 'https://gitee.com/qcyblm/qcyblm/blob/master/LICENSE', licensed = 'MIT' }
 [themeConfig.sidebar]
-  "/windows/" = [
-    '/windows/software',
-    '/windows/wepe',
-  ]
+'/windows/' = ['/windows/software', '/windows/wepe']
 [markdown]
-  lineNumbers = true
+lineNumbers = true
 [plugins]
-  '@vuepress/plugin-last-updated' = { dateOptions = { hour12 = false, timeZone = 'Asia/Shanghai', year = "numeric", month = "2-digit", day = "2-digit", hour = "2-digit", minute = "2-digit" } }
-  'vuepress-plugin-code-copy' = { align = 'bottom', color = 'rgba(255,255,255,0.4)', backgroundTransition = 'bottom', backgroundColor = '#0075b8', successText = '复制成功', staticIcon = false }
-  "@vuepress/plugin-pwa" = { serviceWorker = 'true' , updatePopup = { buttonText = '发现新内容可用', message = '刷新' } }
+'@vuepress/plugin-last-updated' = { dateOptions = { hour12 = false, timeZone = 'Asia/Shanghai', year = 'numeric', month = '2-digit', day = '2-digit', hour = '2-digit', minute = '2-digit' } }
+'vuepress-plugin-code-copy' = { align = 'bottom', color = 'rgba(255,255,255,0.4)', backgroundTransition = 'bottom', backgroundColor = '#0075b8', successText = '复制成功', staticIcon = false }
+'@vuepress/plugin-pwa' = { serviceWorker = 'true', updatePopup = { buttonText = '发现新内容可用', message = '刷新' } }

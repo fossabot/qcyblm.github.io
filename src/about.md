@@ -30,7 +30,7 @@
 - 软件
   - 操作系统内核：Windows NT
   - Windows 操作系统主要版本：Windows 7、Windows 10
-  - Web浏览器：[Mozilla Firefox](https://www.firefox.com.cn/)、[Cent Browser](https://www.centbrowser.cn/)
+  - Web 浏览器：[Mozilla Firefox](https://www.firefox.com.cn/)、[Cent Browser](https://www.centbrowser.cn/)
   - 设计编辑器：CorelDRAW、Adobe Photoshop、[Visual Studio Code](https://code.visualstudio.com/)
   - 压缩软件：[7-Zip](https://sparanoid.com/lab/7z/)
   - 截图工具：[Snipaste](https://zh.snipaste.com/)
@@ -40,9 +40,11 @@
   - 社交聊天：[微信](https://pc.weixin.qq.com/)、[TIM](https://office.qq.com/)
 
 ## 电子设备
+
 作为技术爱好者，我每天的大部分时间都被台式电脑所占据。以下是我使用的电脑设备
 
 ### 组装台式机
+
 - 主要配置
   - 处理器：英特尔 Core i3-10100 @ 3.60GHz
   - 主板：技嘉 H410M H
@@ -52,4 +54,5 @@
   - 显示器：SOY0215 H225 MONITOR ( 21.5 英寸 )
 
 ### 希捷 ST2000DM001-1CH164 2T 7200 转/分
+
 - 数据盘，存储项目和存储资源使用
