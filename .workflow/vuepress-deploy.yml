@@ -14,7 +14,7 @@ stages:
           name: build and deploy
           displayName: "npm Step"
           inputs:
-            nodeVersion: 14.15
+            nodeVersion: 14.16.1
             goals: |
               yarn
               yarn build
