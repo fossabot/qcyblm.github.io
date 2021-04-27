@@ -59,6 +59,10 @@
   desc: "前面风景很好，我的意思是别回头。"
   avatar: "https://www.xuzhipeng.com/images/xunx.svg"
   link: "https://www.xuzhipeng.com/"
+- name: "Masle’Blog"
+  desc: "静以制动，明以破军"
+  avatar: "https://masle.gitee.io/maslebloglib/picture/TOUXIANG/touxiang.png"
+  link: "https://masle.gitee.io/
 ```
 
 :::
