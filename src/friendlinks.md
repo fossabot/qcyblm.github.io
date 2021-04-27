@@ -60,7 +60,7 @@
   avatar: "https://www.xuzhipeng.com/images/xunx.svg"
   link: "https://www.xuzhipeng.com/"
 - name: "Masle’Blog"
-  desc: "静以制动，明以破军"
+  desc: 静以制动，明以破军 <br> <br>
   avatar: "https://masle.gitee.io/maslebloglib/picture/TOUXIANG/touxiang.png"
   link: "https://masle.gitee.io/"
 ```
