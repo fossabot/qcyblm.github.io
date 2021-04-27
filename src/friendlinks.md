@@ -62,7 +62,7 @@
 - name: "Masle’Blog"
   desc: "静以制动，明以破军"
   avatar: "https://masle.gitee.io/maslebloglib/picture/TOUXIANG/touxiang.png"
-  link: "https://masle.gitee.io/
+  link: "https://masle.gitee.io/"
 ```
 
 :::
