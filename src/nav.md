@@ -7,6 +7,7 @@
 - [搜狗搜索](https://www.sogou.com/)
 - [Bing](https://cn.bing.com)
 - [Yandex](https://yandex.com/)
+- [前站导航](https://www.frontendjs.com/)
 - [Magi](https://magi.com/)
 - [秘迹搜索](https://mijisou.com/)
 - [联合搜索](https://gobaidugle.com/)
