@@ -19,6 +19,7 @@ stages:
               yarn
               yarn build
               cd src/.vuepress/dist
+              git config --global init.defaultBranch master
               git init
               git config user.name "${ACCESS_NAME}"
               git config user.email "${ACCESS_EMAIL}"
