@@ -25,4 +25,4 @@ stages:
               git remote add origin "https://${ACCESS_NAME}:${ACCESS_TOKEN}@gitee.com/qcyblm/qcyblm.git"
               git add -A
               git commit -q -m "Auto Deploy from Gitee Go: $(date +"%Y-%m-%d %H:%M")"
-              git push -f origin gh-pages
+              git push -f origin master:gh-pages
