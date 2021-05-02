@@ -14,6 +14,7 @@ meta = [
 	{ name = 'apple-mobile-web-app-status-bar-style', content = 'black' },
 	{ name = 'msapplication-TileImage', content = '/icons/msapplication-icon-144x144.png' },
 	{ name = 'msapplication-TileColor', content = '#000000' },
+	{ name = '360-site-verification' , content = '83a4c41737558c5308ff60ea6e967e46' },
 ]
 link = [
 	{ rel = 'icon', href = '/favicon.ico', type = 'image/x-icon' },
