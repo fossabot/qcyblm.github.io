@@ -22,8 +22,8 @@ stages:
               git init
               git config user.name "${ACCESS_NAME}"
               git config user.email "${ACCESS_EMAIL}"
-              git config user.password ${ACCESS_TOKEN}
-              git remote add origin https://gitee.com/qcyblm/qcyblm.git
+              git config user.password "${ACCESS_TOKEN}"
+              git remote add origin "https://gitee.com/qcyblm/qcyblm.git"
               git add -A
               git commit -q -m "Auto Deploy from Gitee Go: $(date +"%Y-%m-%d %H:%M")"
               git push -f origin master:gh-pages
