@@ -297,43 +297,45 @@ h1, h2, h3, h4, h5, h6
 
 // 卡片列表的响应
 @media (max-width: 900px)
-	.cardLinkContainer
+  .cardLinksContainer, .cardListContainer
 		.card-list
       .card-item.row-4
         width calc(100%/3 - .7rem)
+	.cardLinkContainer
+		.card-list
+			.card-item.row-4
+				width calc(100%/4 - .7rem)
   .cardLinksContainer
     .card-list
-      .card-item.row-4
-        width calc(100%/3 - .7rem)
       .card-item
         div
           .name,.desc
             white-space: inherit
-  .cardListContainer
-    .card-list
-      .card-item.row-4
-        width calc(100%/3 - .7rem)
   .cardImgListContainer
     .card-list
       .card-item.row-4
         width calc(100%/3 - 1rem)
 
 @media (max-width: 720px)
-	.cardLinkContainer
+	.cardLinksContainer, .cardListContainer
 		.card-list
       .card-item.row-4
         width calc(100%/2 - .7rem)
+	.cardLinkContainer
+		.card-list
+			.card-item.row-3
+				width calc(100%/2 - .7rem)
+			.card-item.row-4
+				width calc(100%/3 - .7rem)
   .cardLinksContainer
     .card-list
-      .card-item.row-4
-        width calc(100%/2 - .7rem)
       .card-item
         div
           .name,.desc
             white-space: inherit
   .cardListContainer
     .card-list
-      .card-item.row-3, .card-item.row-4
+      .card-item.row-3,
         width calc(100%/2 - .7rem)
         img
           margin-left 1.5rem
@@ -343,26 +345,19 @@ h1, h2, h3, h4, h5, h6
         width calc(100%/2 - 1rem)
 
 @media (max-width: 500px)
-	.cardLinkContainer
+	.cardLinkContainer, .cardLinksContainer, .cardListContainer
 		.card-list
       .card-item.row-1, .card-item.row-2, .card-item.row-3, .card-item.row-4
         width calc(100% - .7rem)
-  .cardLinksContainer
+  .cardLinksContainer, .cardListContainer
     .card-list
       .card-item.row-1, .card-item.row-2, .card-item.row-3, .card-item.row-4
-        width calc(100% - .7rem)
         img
           margin-left 1.5rem
       .card-item
         div
           .name,.desc
             white-space: inherit
-  .cardListContainer
-    .card-list
-      .card-item.row-1, .card-item.row-2, .card-item.row-3, .card-item.row-4
-        width calc(100% - .7rem)
-        img
-          margin-left 1.5rem
   .cardImgListContainer
     .card-list
       .card-item.row-1, .card-item.row-2, .card-item.row-3, .card-item.row-4
