@@ -64,9 +64,14 @@
   avatar: "https://masle.gitee.io/maslebloglib/picture/TOUXIANG/touxiang.png"
   link: "https://masle.gitee.io/"
 - name: "斯人若彩虹"
-  desc: "等风也等你"
+  desc: 等风也等你 <br> <br>
   avatar: "https://bruce-jj.gitee.io/blog/images/avatar.jpg"
   link: "https://bruce-jj.gitee.io/blog/"
+- name: "漉鲸的Blog"
+  desc: 个人向，记录生活的博客。 <br> <br>
+  avatar: "http://lujing-img.oss-cn-beijing.aliyuncs.com/2021/04/05/4966574048166.ico"
+  link: "https://blog.lj0web.com/"
+
 ```
 
 :::
