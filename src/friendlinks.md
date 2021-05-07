@@ -63,6 +63,10 @@
   desc: 静以制动，明以破军 <br> <br>
   avatar: "https://masle.gitee.io/maslebloglib/picture/TOUXIANG/touxiang.png"
   link: "https://masle.gitee.io/"
+- name: "斯人若彩虹"
+  desc: "等风也等你"
+  avatar: "https://bruce-jj.gitee.io/blog/images/avatar.jpg"
+  link: "https://bruce-jj.gitee.io/blog/"
 ```
 
 :::
