@@ -71,6 +71,10 @@
   desc: 个人向，记录生活的博客。 <br> <br>
   avatar: "http://lujing-img.oss-cn-beijing.aliyuncs.com/2021/04/05/4966574048166.ico"
   link: "https://blog.lj0web.com/"
+- name: 泰戈尔のBlog
+  desc: 智慧成就科技，科技改变生活。
+  avatar: https://ittiger.top/头像.jpg
+  link: https://www.iftiger.com
 
 ```
 
@@ -82,11 +86,13 @@
 
 1. 网站合法合规，不接受违规网站的申请
 2. 需要有原创内容，且保持一定频率的更新
-3. 全站强制使用 HTTPS，不接受使用 HTTP 协议网站的申请
+3. 网站必须有效存活3个月以上
+4. 全站强制使用 HTTPS，不接受使用 HTTP 协议网站的申请
+5. 要与本网站交换链接，请先做好此网站链接，然后发邮件到：[qcyblm@139.com](mailto:qcyblm@139.com)，我们将在收到邮件后1-2个工作日内审核回复!
 
 ::: tip 友情链接
 网站名称： "青春永不落幕"  
 网站地址："https://qcyblm.gitee.io/"  
 网站头像："https://qcyblm.gitee.io/favicon.ico"  
-网站简介："一位网页设计和收集 Windows 平台软件的爱好者。"
+网站简介："使用合适的软件和代码来达到最佳效果"
 :::
