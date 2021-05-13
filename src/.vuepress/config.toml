@@ -16,7 +16,7 @@ meta = [
 	{ name = 'author', content = 'qcyblm，qcyblm@139.com' },
 	{ property = "og:title", content = "青春永不落幕" },
 	{ property = "og:determiner", content = "使用合适的软件和代码来达到最佳效果" },
-	{ property = "article:author", content = "John Doe" },
+	{ property = "article:author", content = "青春永不落幕" },
   { property = "article:tag", content = "VuePress, VPX" },
 	{ property = "og:image", content="/favicon.ico" },
 	{ name = 'baidu-site-verification', content = 'code-gxXVYQex35' },
