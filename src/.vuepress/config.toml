@@ -31,7 +31,7 @@ link = [
 	{ rel = 'manifest', href = '/manifest.json' }
 ]
 script = [
-    { "type" = "text/javascript", "src" = "/js/baidu.js" }
+    { type = "text/javascript", src = "/js/baidu.js" }
 ]
 [themeConfig]
 logo = '/assets/img/logo.webp'
