@@ -30,6 +30,9 @@ link = [
 	{ rel="apple-touch-icon-precomposed", sizes="114x114", href="apple-icon-114.png", type="image/vnd.sealed.png"},
 	{ rel = 'manifest', href = '/manifest.json' }
 ]
+script = [
+    { "type" = "text/javascript", "src" = "/js/baidu.js" }
+]
 [themeConfig]
 logo = '/assets/img/logo.webp'
 edit = { docsDir = 'src' }
