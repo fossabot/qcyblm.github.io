@@ -1,0 +1,36 @@
+name: vuepress-deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: ['lts/erbium']
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+        with:
+          ref: 'master'
+          persist-credentials: false
+          fetch-depth: 0
+        env:
+          TZ: Asia/Shanghai
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@main
+        with:
+          node-version:  ${{ matrix.node }}
+      - name: Install dependencies
+        run: yarn
+      - name: Build VuePress
+        run: yarn docs:build
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          git-config-name: github-actions[bot]
+          git-config-email: github-actions[bot]@users.noreply.github.com
+          branch: gh-pages
+          token: ${{ github.token }}
+          folder: docs/.vuepress/dist
