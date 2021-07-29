@@ -18,7 +18,7 @@ stages:
             goals: |
               yarn
               yarn docs:build
-              cd src/.vuepress/dist
+              cd docs/.vuepress/dist
               git config --global init.defaultBranch master
               git init
               git config user.name "${ACCESS_NAME}"
