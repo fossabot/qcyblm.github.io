@@ -26,11 +26,14 @@ jobs:
         run: yarn
       - name: Build VuePress
         run: yarn docs:build
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          git-config-name: github-actions[bot]
-          git-config-email: github-actions[bot]@users.noreply.github.com
-          branch: gh-pages
-          token: ${{ github.token }}
-          folder: docs/.vuepress/dist
+      - name: Deploy to Pages
+        run: |
+         cd docs/.vuepress/dist
+         git config --global init.defaultBranch master
+         git init
+         git config user.name "qcyblm"
+         git config user.email "qcyblm@139.com"
+         git add .
+         git commit -q -m "${{ github.event.head_commit.message }} $(date +"%Y年%m月%d日 %T %:z") Updated By Github Actions"
+         git push -f -q origin master:gh-pages
+         git push -f -q https://qcyblm:${{ secrets.GITEE_TOKEN }}@gitee.com/qcyblm/qcyblm.git master:gh-pages
