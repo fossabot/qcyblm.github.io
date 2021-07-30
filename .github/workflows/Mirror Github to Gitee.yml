@@ -19,6 +19,6 @@ jobs:
         run: |
           git remote add gitee https://gitee.com/qcyblm/qcyblm.git
           git fetch --all
-          git push https://qcyblm:${{ GITEE_TOKEN }}@gitee.com/qcyblm/qcyblm.git master
+          git push https://qcyblm:${{ secrets.GITEE_TOKEN }}@gitee.com/qcyblm/qcyblm.git master
           
           
