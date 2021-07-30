@@ -13,7 +13,10 @@
 ## 网站框架
 - VuePress
 ## 文档预览
+```
 yarn docs:dev
-
+```
 ## 文档生成
+```
 yarn docs:build
+```
