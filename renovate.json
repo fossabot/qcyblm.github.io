@@ -2,5 +2,6 @@
   "extends": [
     "config:base"
   ],
-	"followTag":"next"
+	"followTag": "next",
+	"baseBranches": "master"
 }
