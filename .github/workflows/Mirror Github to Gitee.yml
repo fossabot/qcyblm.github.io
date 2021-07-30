@@ -1,0 +1,23 @@
+name: vuepress-deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+        with:
+          ref: 'master'
+          persist-credentials: false
+          fetch-depth: 0
+        env:
+          TZ: Asia/Shanghai
+        run: |
+          git remote add gitee https://gitee.com/qcyblm/qcyblm.git
+          git fetch --all
+          git push https://qcyblm:${{ GITEE_TOKEN }}@gitee.com/qcyblm/qcyblm.git master
+          
+          
