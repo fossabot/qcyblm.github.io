@@ -11,7 +11,7 @@
 - [Node.js v12+](https://nodejs.org/)
 - [Yarn v1 latest](https://classic.yarnpkg.com)（可选）
 ## 网站框架
-- VuePress
+- [VuePress](https://v2.vuepress.vuejs.org/)
 ## 文档预览
 ```
 yarn docs:dev
