@@ -1,4 +1,4 @@
-name: vuepress-deploy
+name: Mirror Github to Gitee
 on:
   push:
     branches:
@@ -15,6 +15,7 @@ jobs:
           fetch-depth: 0
         env:
           TZ: Asia/Shanghai
+      - name: Mirror Github to Gitee
         run: |
           git remote add gitee https://gitee.com/qcyblm/qcyblm.git
           git fetch --all
