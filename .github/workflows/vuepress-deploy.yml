@@ -36,6 +36,6 @@ jobs:
          git config user.name "qcyblm"
          git config user.email "qcyblm@139.com"
          git add .
-         git commit -q -m "${{ github.env.GITHUB_SHA }} $(date +"%Y年%m月%d日 %T %:z") Updated By Github Actions"
+         git commit -q -m "${{ env.GITHUB_SHA }} $(date +"%Y年%m月%d日 %T %:z") Updated By Github Actions"
          git push -f -q https://qcyblm:${{ github.token }}@github.com/qcyblm/qcyblm.github.io.git master:gh-pages
          git push -f -q https://qcyblm:${{ secrets.GITEE_TOKEN }}@gitee.com/qcyblm/qcyblm.git master:gh-pages
