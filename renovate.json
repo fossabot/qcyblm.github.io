@@ -3,5 +3,5 @@
     "config:base"
   ],
 	"followTag": "next",
-	"baseBranches": ["master","baiduPush"]
+	"baseBranches": ["master"]
 }
