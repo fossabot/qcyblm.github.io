@@ -49,7 +49,7 @@ jobs:
       - name: Gitee Pages Action
         uses: yanglbme/gitee-pages-action@v1.2.8
         with:
-          gitee-username: $GITHUB_ACTOR
+          gitee-username: qcyblm
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
           gitee-repo: qcyblm/qcyblm
           branch: gh-pages
