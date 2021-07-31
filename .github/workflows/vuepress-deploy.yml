@@ -3,6 +3,17 @@ on:
   push:
     branches:
       - master
+    paths:
+      - ""
+  pull_request:
+    paths-ignore:
+      - '.github/**'
+      - '.workflow/**'
+      - '.*'
+      - 'LICENSE'
+      - 'README.md'
+      - 'renovate.json'
+      
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
