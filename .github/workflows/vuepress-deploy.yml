@@ -5,8 +5,8 @@ on:
       - master
   pull_request:
     paths-ignore:
-      - '.github/**'
-      - '.workflow/**'
+      - '.github/*'
+      - '.workflow/*'
       - '.*'
       - 'LICENSE'
       - 'README.md'
