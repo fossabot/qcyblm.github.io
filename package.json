@@ -1,7 +1,7 @@
 {
 	"name": "qcyblm",
 	"version": "1.0.0",
-	"description": "使用合适的软件和代码来达到最佳效果",
+	"description": "记录软件下载平台和网络学习过程笔记",
 	"main": "index.js",
 	"scripts": {
 		"docs:dev": "vuepress dev docs --clean-cache --debug",
