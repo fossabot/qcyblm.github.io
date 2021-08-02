@@ -4,7 +4,7 @@ on:
     branches:
       - master
 jobs:
-  Mirror-Github-to-Gitee:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -15,10 +15,10 @@ jobs:
           fetch-depth: 0
         env:
           TZ: Asia/Shanghai
-      - name: Mirror Github to Gitee
-        run: |
+      - run: |
+          date > generated.txt
+          git config user.name qcyblm
+          git config user.email ${{ secrets.GIT_EMAIL }}
           git remote add gitee https://gitee.com/qcyblm/qcyblm.git
           git fetch --all
           git push https://qcyblm:${{ secrets.GITEE_TOKEN }}@gitee.com/qcyblm/qcyblm.git master
-          
-          
