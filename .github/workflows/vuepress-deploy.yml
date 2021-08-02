@@ -4,7 +4,7 @@ on:
     branches:
       - master
     paths-ignore:
-      - '.*/**/*'
+      - '.*/workflows/*'
       - '.*'
       - 'LICENSE'
       - 'README.md'
@@ -37,9 +37,9 @@ jobs:
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-node-${{ env.NODE_VERSION }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-node-${{ matrix.node }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-node-${{ env.NODE_VERSION }}-yarn-
+            ${{ runner.os }}-node-${{ matrix.node }}-yarn-
             ${{ runner.os }}-node-
       - name: Install dependencies
         run: yarn
