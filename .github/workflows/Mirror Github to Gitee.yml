@@ -4,7 +4,6 @@ on:
     branches:
       - master
 jobs:
-  Mirror Github to Gitee:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
