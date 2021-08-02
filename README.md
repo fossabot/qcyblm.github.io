@@ -11,7 +11,7 @@
 - [Node.js v12+](https://nodejs.org/)
 - [Yarn berry](https://github.com/yarnpkg/berry)（可选）
 ## 网站框架
-- [VuePress](https://v2.vuepress.vuejs.org/)
+- [VuePress next](https://v2.vuepress.vuejs.org/)
 ## 文档预览
 ```
 yarn docs:dev
