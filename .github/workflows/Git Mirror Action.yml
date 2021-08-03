@@ -1,4 +1,4 @@
-name: Mirror Github to Gitee
+name: Git Mirror Action
 on:
   push:
     branches:
@@ -20,5 +20,7 @@ jobs:
           git config user.name qcyblm
           git config user.email ${{ secrets.GIT_EMAIL }}
           git remote add gitee https://gitee.com/qcyblm/qcyblm.git
-          git fetch -q gitee master
+          git remote add coding https://e.coding.net/qcyblm/qcyblm.git
+          git fetch -q --all
           git push -q https://qcyblm:${{ secrets.GITEE_TOKEN }}@gitee.com/qcyblm/qcyblm.git master
+          git push -q https://${{ secrets.CODING_TOKEN_NAME }}:${{ secrets.CODING_TOKEN }}@e.coding.net/qcyblm/qcyblm.git master
