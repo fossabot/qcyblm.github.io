@@ -7,7 +7,7 @@
 
 
 这是青春永不落幕的托管在 gitee 上的笔记仓库，本文档主要记录软件下载平台和网络学习过程笔记。
- ## 依赖环境
+## 依赖环境
 - [Node.js v12+](https://nodejs.org/)
 - [Yarn berry](https://github.com/yarnpkg/berry)（可选）
 ## 网站框架
