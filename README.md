@@ -1,5 +1,5 @@
 # 青春永不落幕
-[![Mirror Github to Gitee status](https://github.com/qcyblm/qcyblm.github.io/workflows/Mirror%20Github%20to%20Gitee/badge.svg)](https://github.com/qcyblm/qcyblm.github.io/actions/workflows/Mirror%20Github%20to%20Gitee.yml)
+[![Git Mirror Action status](https://github.com/qcyblm/qcyblm.github.io/workflows/Git%20Mirror%20Action/badge.svg)](https://github.com/qcyblm/qcyblm.github.io/actions/workflows/Git%20Mirror%20Action.yml)
 [![vuepress-deploy status](https://github.com/qcyblm/qcyblm.github.io/workflows/vuepress-deploy/badge.svg)](https://github.com/qcyblm/qcyblm.github.io/actions/workflows/vuepress-deploy.yml)
 [![yarn (Latest CLI Release)](https://img.shields.io/npm/v/@yarnpkg/cli/latest?label=yarn%40berry)](https://github.com/yarnpkg/berry)
 [![vuepress@next](https://img.shields.io/github/v/release/vuepress/vuepress-next?include_prereleases&label=vuepress%40next)](https://github.com/vuepress/vuepress-next/releases)
