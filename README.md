@@ -7,23 +7,29 @@
 
 
 这是青春永不落幕的托管在 gitee 上的笔记仓库，本文档主要记录软件下载平台和网络学习过程笔记。
+
 ## 依赖环境
 - [Node.js v12+](https://nodejs.org/)
 - [Yarn berry](https://github.com/yarnpkg/berry)（可选）
+
 ## 网站框架
 - [VuePress next](https://v2.vuepress.vuejs.org/)
+
 ## 文档预览
 ```
 yarn docs:dev
 ```
+
 ## 文档生成
 ```
 yarn docs:build
 ```
+
 ## Git 仓库
 - GitHub：https://github.com/qcyblm/qcyblm.github.io/
 - Gitee：https://gitee.com/qcyblm/qcyblm
 - CODING：https://qcyblm.coding.net/public/qcyblm/qcyblm/git/files
+
 ## 个人网站
 - GitHub：https://qcyblm.github.io/
 - Gitee：https://qcyblm.gitee.io/
