@@ -11,10 +11,17 @@
 ## 浏览器
 - [Google Chrome](https://www.google.cn/chrome/ "得益于 Google 智能工具，Chrome 现在更易用、更安全、更快速。")
 - [Mozilla Firefox](https://www.mozilla.org/firefox/browsers/ "引擎反应更快，内存占用更少，还有众多新功能。")
+- [百分浏览器](https://www.centbrowser.cn/ "追求速度、简约和安全的网络浏览器")
+- [星愿浏览器](https://www.twinkstar.com/ "大学生都爱用的浏览器")
+- [360极速浏览器](https://browser.360.cn/ee/ "畅快浏览 极致体验")
 ## 输入法
 - [搜狗输入法](https://pinyin.sogou.com/ "享受输入，从搜狗开始！")
 - [QQ输入法](http://qq.pinyin.cn/ "让书写成为享受,具有词库随身带,精美皮肤更换和智能整句生成特点")
 - [RIME | 中州韵输入法引擎](https://rime.im/ "聪明的输入法懂我心意")
+- [百度输入法](https://shurufa.baidu.com/ "初见如故，再见有您")
+- [搜狗五笔输入法](https://wubi.sogou.com/)
+- [QQ五笔输入法](http://qq.pinyin.cn/wubi/)
+- [极点五笔输入法](http://www.freewb.org/ "一款 免费的多功能五笔、拼音输入软件平台 ，同时完美支持一笔、二笔等各种以 a~z 为编码的“型码”、“音型码”。")
 ## 安全软件
 - [360安全卫士](https://weishi.360.cn/ "依托全网安全大数据平台，借助360威胁情报云、知识库AI云、安全专家云，全面守护网络安全。 ")
 - [腾讯电脑管家](https://guanjia.qq.com/ "全新视觉改版，探寻科技与未来的纯粹之美，净心守护您的电脑安全。")
@@ -33,6 +40,7 @@
 ## 压缩软件
 - [7-Zip](https://www.7-zip.org/ "一款拥有极高压缩比的开源压缩软件")
 - [WinRAR](https://www.rarlab.com/ "一个强大的档案管理器")
+- [PeaZip](https://peazip.github.io/ "PeaZip free archiver utility, open extract RAR TAR ZIP files")
 ## 办公软件
 - [WPS Office](https://www.wps.cn/ "让你高效解决办公问题")
 - [XMind](https://www.xmind.cn/ "一个全功能的思维导图和头脑风暴软件")
