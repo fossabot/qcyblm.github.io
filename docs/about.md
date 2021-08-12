@@ -27,7 +27,7 @@ sidebar: false
 	+ Windows 操作系统主要版本：Windows 7、Windows 10
 	+ Web 浏览器：[Mozilla Firefox](https://www.mozilla.org/firefox/browsers/)
 	+ 设计编辑器：CorelDRAW、[Visual Studio Code](https://code.visualstudio.com/)
-	+ 压缩软件：[7-Zip](https://www.7-zip.org/ "一款拥有极高压缩比的开源压缩软件")
+	+ 压缩软件：[PeaZip](https://peazip.github.io/ "PeaZip free archiver utility, open extract RAR TAR ZIP files")
 	+ 截图工具：[Snipaste](https://www.snipaste.com/ "截图+贴图，免费. 免安装. 可个性定制.")
 	+ 媒体播放： [爱奇艺万能联播](https://static-s.iqiyi.com/wnbf/get.html "超强大的视频播放器")
 	+ 网盘传输：[百度网盘](https://pan.baidu.com/)、[天翼云](https://cloud.189.cn/)
