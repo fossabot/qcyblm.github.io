@@ -76,6 +76,7 @@
 - [Free Download Manager](https://www.freedownloadmanager.org/ "这是一款在Windows， macOS， Android 及Linux 操作系统下，强大又现代的下载加速组织器。")
 - [OneDrive](https://go.microsoft.com/fwlink/?LinkId=263764)
 - [Xdown](https://xdown.org/ "专业的文件下载与分享工具(BitTorrent/HTTP/FTP)")
+- [Motrix](https://motrix.app/ "A full-featured download manager")
 ## 服务搭建
 - [SwitchHosts](https://swh.app/ "SwitchHosts 是一个管理、切换多个 hosts 方案的工具。
 它是一个免费开源软件。")
