@@ -67,6 +67,7 @@
 - [Q-Dir](http://www.softwareok.com/?seite=Freeware/Q-Dir "The Quad-Directory-Explorer makes your files and folders easy to manage, either installed or as a Portable Windows program as an alternative Freeware to Microsoft's File Explorer.")
 - [BelaUtils](https://github.com/fcharlie/BelaUtils "A modern and interesting file format viewer")
 - [Universal Viewer](http://uvviewsoft.com/uviewer/ "Open many file types: DOCX, XLSX, PDF and more")
+- [HashCheck Shell Extension](https://code.kliu.org/hashcheck/ "The HashCheck Shell Extension makes it easy for anyone to calculate and verify checksums and hashes from Windows Explorer.")
 ## 网络传输
 - [百度网盘](https://pan.baidu.com/ "百度网盘为您提供文件的网络备份、同步和分享服务。空间大、速度快、安全稳固，支持教育网加速，支持手机端。现在注册即有机会享受15G的免费存储空间")
 - [迅雷](https://www.xunlei.com/ "全球共享计算与区块链创领者")
