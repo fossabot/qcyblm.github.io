@@ -44,6 +44,7 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+            ${{ runner.os }}-node-
       - name: Deploy to Pages
         env:
          TZ: Asia/Shanghai
