@@ -8,6 +8,10 @@
 - [阿里旺旺](https://alimarket.taobao.com/markets/qnww/ "买家端网购沟通利器，打造我的专属淘宝。")
 - [千牛](https://cts.alibaba.com/product/qianniu.htm "强大千牛工作台，更高效率，更多自由")
 - [钉钉](https://www.dingtalk.com/ "中国领先的智能移动办公平台，由阿里巴巴集团开发，免费提供给所有中国企业，用于商务沟通和工作协同。")
+## 电子邮件
+- [Mozilla Thunderbird](https://www.thunderbird.net/ "一款免费的电子邮件应用程序")
+- [网易邮箱大师](https://mail.163.com/dashi/index.html "专业的全平台邮箱客户端")
+- [Foxmail](https://www.foxmail.com/)
 ## 浏览器
 - [Google Chrome](https://www.google.cn/chrome/ "得益于 Google 智能工具，Chrome 现在更易用、更安全、更快速。")
 - [Mozilla Firefox](https://www.mozilla.org/firefox/browsers/ "引擎反应更快，内存占用更少，还有众多新功能。")
