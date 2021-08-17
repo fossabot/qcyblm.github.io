@@ -41,10 +41,10 @@ jobs:
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-node-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
+            ${{ runner.os }}-node-yarn-
             ${{ runner.os }}-yarn-
-            ${{ runner.os }}-node-
       - name: Deploy to Pages
         env:
          TZ: Asia/Shanghai
