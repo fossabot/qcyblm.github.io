@@ -41,10 +41,6 @@
 - [网易云音乐](https://music.163.com/ "一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。")
 - [QQ音乐](https://y.qq.com/ "腾讯公司推出的一款免费音乐服务")
 - [酷狗音乐](https://www.kugou.com/ "酷狗音乐，就是歌多")
-## 压缩软件
-- [7-Zip](https://www.7-zip.org/ "一款拥有极高压缩比的开源压缩软件")
-- [WinRAR](https://www.rarlab.com/ "一个强大的档案管理器")
-- [PeaZip](https://peazip.github.io/ "PeaZip free archiver utility, open extract RAR TAR ZIP files")
 ## 办公软件
 - [WPS Office](https://www.wps.cn/ "让你高效解决办公问题")
 - [XMind](https://www.xmind.cn/ "一个全功能的思维导图和头脑风暴软件")
@@ -60,10 +56,18 @@
 - [OBS](https://obsproject.com/ "免费且开源的用于视频录制以及直播串流的软件。")
 - [Waifu2x-Extension-GUI](https://gitee.com/aaronfeng0711/Waifu2x-Extension-GUI "使用机器学习放大 图片/视频/GIF 以及 视频插帧(补帧). ")
 - [剪映](https://lv.ulikecam.com/ "全能易用的桌面端剪辑软件-轻而易剪 上演大幕")
-## 文件处理
+## 文件散列值校验工具
+- [MyHash](https://github.com/drag0n-app/MyHash/ "一款采用并行计算，充分利用多核CPU性能，快速计算文件哈希值的工具。")
+- [HashCheck Shell Extension](https://github.com/gurnec/HashCheck/ "The HashCheck Shell Extension makes it easy for anyone to calculate and verify checksums and hashes from Windows Explorer.")
+- [OpenHashTab](https://github.com/namazso/OpenHashTab/ "a shell extension for conveniently calculating and checking file hashes from file properties.")
+## 文件归档工具
+- [7-Zip](https://www.7-zip.org/ "一款拥有极高压缩比的开源压缩软件")
+- [7-Zip ZS](https://github.com/mcmilk/7-Zip-zstd "7-Zip with support for Brotli, Fast-LZMA2, Lizard, LZ4, LZ5 and Zstandard")
+- [WinRAR](https://www.rarlab.com/ "一个强大的档案管理器")
+- [PeaZip](https://peazip.github.io/ "PeaZip free archiver utility, open extract RAR TAR ZIP files")
+## 文件处理工具
 - [Everything](https://www.voidtools.com/ "基于名称快速定位文件和文件夹。")
 - [Geek Uninstaller](https://geekuninstaller.com/ "Efficient and Fast, Small and Portable. ")
-- [MyHash](https://github.com/drag0n-app/MyHash "一款采用并行计算，充分利用多核CPU性能，快速计算文件哈希值的工具。")
 - [Sumatra PDF](https://www.sumatrapdfreader.org/ "Free PDF Reader")
 - [FastCopy](https://fastcopy.jp/ "The Fastest Copy/Backup Software on Windows")
 - [格式工厂 图片工厂](http://www.pcfreetime.com/)
@@ -71,7 +75,6 @@
 - [Q-Dir](http://www.softwareok.com/?seite=Freeware/Q-Dir "The Quad-Directory-Explorer makes your files and folders easy to manage, either installed or as a Portable Windows program as an alternative Freeware to Microsoft's File Explorer.")
 - [BelaUtils](https://github.com/fcharlie/BelaUtils "A modern and interesting file format viewer")
 - [Universal Viewer](http://uvviewsoft.com/uviewer/ "Open many file types: DOCX, XLSX, PDF and more")
-- [HashCheck Shell Extension](https://code.kliu.org/hashcheck/ "The HashCheck Shell Extension makes it easy for anyone to calculate and verify checksums and hashes from Windows Explorer.")
 ## 网络传输
 - [百度网盘](https://pan.baidu.com/ "百度网盘为您提供文件的网络备份、同步和分享服务。空间大、速度快、安全稳固，支持教育网加速，支持手机端。现在注册即有机会享受15G的免费存储空间")
 - [迅雷](https://www.xunlei.com/ "全球共享计算与区块链创领者")
@@ -122,7 +125,7 @@
 ## 分区管理
 - [DiskGenius](https://www.diskgenius.cn/ "数据恢复及分区管理软件")
 - [傲梅分区助手](https://www.disktool.cn/feature.html "免费、简单易用的无损分区软件")
-##  驱动管理
+## 驱动管理
 - [360 驱动大师](https://dm.weishi.360.cn/home.html "百万级驱动库，最新驱动全程自动安装")
 - [驱动精灵](https://www.drivergenius.com/ "基于驱动之家十余年的专业数据积累，驱动支持度高达98.3%")
 - [万能驱动7](https://www.qdcx.net/ "高效的电脑硬件驱动程序解决方案")
