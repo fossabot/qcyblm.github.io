@@ -16,6 +16,7 @@ jobs:
     strategy:
       matrix:
         node: ['lts/fermium']
+        cache: ['npm','yarn']
     steps:
       - name: Checkout
         uses: actions/checkout@main
@@ -29,7 +30,7 @@ jobs:
         uses: actions/setup-node@main
         with:
           node-version:  ${{ matrix.node }}
-          cache: 'yarn'
+          cache: ${{ matrix.cache }}
       - name: Get Yarn 2 cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
