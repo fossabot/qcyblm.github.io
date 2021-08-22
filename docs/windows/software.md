@@ -114,6 +114,7 @@
 - [AIDA64](https://www.aida64.com/ "The Ultimate System Information, Diagnostics and Benchmark Tool")
 - [Crystal Dew World](https://crystalmark.info/)
 - [卡硬工具箱](http://www.kbtool.cn/ "集百家之长，掌握主机的每个角落")
+- [LeoMoon CPU-V](https://leomoon.com/downloads/desktop-apps/leomoon-cpu-v/ "LeoMoon CPU-V is the only application on the Internet that will help you to detect if your CPU supports Hardware Virtualization that supports 32-bit and 64-bit Windows.")
 ## 安卓模拟器
 - [逍遥安卓模拟器](https://www.xyaz.cn/)
 - [雷电安卓模拟器](https://www.ldmnq.com/)
