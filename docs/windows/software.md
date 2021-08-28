@@ -152,6 +152,7 @@
 - [Easy Sysprep](https://www.itsk.com/es "IT天空出品的一款 Windows 操作系统封装部署辅助工具")
 - [SC](https://www.sysceo.com/sc "系统总裁自主开发的一款简单易用、智能高效的系统封装工具。")
 - [Windows超级管理器](https://www.collithel.com/windows_super_manager/ "这或许是迄今为止最具工匠精神的全能系统工具箱")
+- [Windows VHD/VHDX 辅助处理工具](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=257310)
 ## 制作可启动 U 盘工具
 - [Ventoy](https://www.ventoy.net/ "一个制作可启动U盘的开源工具。")
 - [Rufus](https://rufus.ie/ "轻松创建USB启动盘")
