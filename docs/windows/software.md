@@ -57,6 +57,7 @@
 - [Waifu2x-Extension-GUI](https://gitee.com/aaronfeng0711/Waifu2x-Extension-GUI "使用机器学习放大 图片/视频/GIF 以及 视频插帧(补帧). ")
 - [剪映](https://lv.ulikecam.com/ "全能易用的桌面端剪辑软件-轻而易剪 上演大幕")
 ## 文件散列值校验工具
+- [Hash](http://keir.net/hash.html "Hash is a small GUI tool designed to perform MD5, SHA1 and CRC32 hashing functions on a number of files")
 - [MyHash](https://github.com/drag0n-app/MyHash/ "一款采用并行计算，充分利用多核CPU性能，快速计算文件哈希值的工具。")
 - [HashCheck Shell Extension](https://github.com/gurnec/HashCheck/ "The HashCheck Shell Extension makes it easy for anyone to calculate and verify checksums and hashes from Windows Explorer.")
 - [OpenHashTab](https://github.com/namazso/OpenHashTab/ "a shell extension for conveniently calculating and checking file hashes from file properties.")
@@ -150,6 +151,7 @@
 - [Defender Control](https://www.sordum.org/9480/defender-control-v1-6/)
 - [Easy Sysprep](https://www.itsk.com/es "IT天空出品的一款 Windows 操作系统封装部署辅助工具")
 - [SC](https://www.sysceo.com/sc "系统总裁自主开发的一款简单易用、智能高效的系统封装工具。")
+- [Windows超级管理器](https://www.collithel.com/windows_super_manager/ "这或许是迄今为止最具工匠精神的全能系统工具箱")
 ## 制作可启动 U 盘工具
 - [Ventoy](https://www.ventoy.net/ "一个制作可启动U盘的开源工具。")
 - [Rufus](https://rufus.ie/ "轻松创建USB启动盘")
