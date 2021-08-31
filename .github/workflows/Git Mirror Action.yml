@@ -17,8 +17,6 @@ jobs:
           TZ: Asia/Shanghai
       - run: |
           date > generated.txt
-          git config user.name qcyblm
-          git config user.email ${{ secrets.GIT_EMAIL }}
           git remote add gitee https://gitee.com/qcyblm/qcyblm.git
           git remote add coding https://e.coding.net/qcyblm/qcyblm.git
           git fetch -q --all
