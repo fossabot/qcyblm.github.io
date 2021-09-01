@@ -3,5 +3,5 @@
     "config:base",
   ],
 	"dependencyDashboard": true,
-	"baseBranches": ["master"]
+	"baseBranches": "master"
 }
