@@ -17,8 +17,8 @@ jobs:
           TZ: Asia/Shanghai
       - run: |
           date > generated.txt
-          git remote add gitee https://gitee.com/qcyblm/qcyblm.git
-          git remote add coding https://e.coding.net/qcyblm/qcyblm.git
+          git remote add gitee https://gitee.com/$GITHUB_ACTOR/$GITHUB_ACTOR.git
+          git remote add coding https://e.coding.net/$GITHUB_ACTOR/$GITHUB_ACTOR.git
           git fetch -q --all
-          git push -q https://qcyblm:${{ secrets.GITEE_TOKEN }}@gitee.com/qcyblm/qcyblm.git master
-          git push -q https://${{ secrets.CODING_TOKEN_NAME }}:${{ secrets.CODING_TOKEN }}@e.coding.net/qcyblm/qcyblm.git master
+          git push -q https://$GITHUB_ACTOR:${{ secrets.GITEE_TOKEN }}@gitee.com/$GITHUB_ACTOR/$GITHUB_ACTOR.git master
+          git push -q https://${{ secrets.CODING_TOKEN_NAME }}:${{ secrets.CODING_TOKEN }}@e.coding.net/$GITHUB_ACTOR/$GITHUB_ACTOR.git master
