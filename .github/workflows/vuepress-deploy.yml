@@ -23,8 +23,6 @@ jobs:
           ref: 'master'
           persist-credentials: false
           fetch-depth: 0
-        env:
-          TZ: Asia/Shanghai
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@main
         with:
