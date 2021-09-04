@@ -2,9 +2,6 @@ import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 
 export default defineUserConfig<DefaultThemeOptions>({
-	temp: '.temp',
-	cache: '.cache',
-	base: '/',
 	locales: {
     '/': {
 			lang: 'zh-CN',

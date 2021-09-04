@@ -16,7 +16,7 @@
 	"author": "qcyblm <qcyblm@139.com> (https://qcyblm.gitee.io/)",
 	"license": "MIT",
 	"private": true,
-	"packageManager": "yarn@3.0.1-rc.1",
+	"packageManager": "yarn@3.0.2",
 	"devDependencies": {
 		"@vuepress/plugin-pwa": "next",
 		"vuepress": "next"
