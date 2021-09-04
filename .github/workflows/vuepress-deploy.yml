@@ -56,8 +56,8 @@ jobs:
          git add .
          git commit -q -m "Deploying to gh-pages from @ $GITHUB_SHA in $(date +"%Y年%m月%d日 %T %Z")"
          git push -f -q https://$GITHUB_ACTOR:${{ github.token }}@github.com/$GITHUB_REPOSITORY.git master:gh-pages
-         git push -f -q https://$GITHUB_ACTOR:${{ secrets.GITEE_TOKEN }}@gitee.com/qcyblm/qcyblm.git master:gh-pages
-         git push -f -q https://${{ secrets.CODING_TOKEN_NAME }}:${{ secrets.CODING_TOKEN }}@e.coding.net/qcyblm/qcyblm.git master:gh-pages
+         git push -f -q https://$GITHUB_ACTOR:${{ secrets.GITEE_TOKEN }}@gitee.com/$GITHUB_ACTOR/$GITHUB_ACTOR.git master:gh-pages
+         git push -f -q https://${{ secrets.CODING_TOKEN_NAME }}:${{ secrets.CODING_TOKEN }}@e.coding.net/$GITHUB_ACTOR/$GITHUB_ACTOR.git master:gh-pages
       - name: Gitee Pages Action
         uses: yanglbme/gitee-pages-action@v1.3.2
         with:
