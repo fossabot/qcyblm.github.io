@@ -19,11 +19,6 @@
 			"type": "image/webp"
 		},
 		{
-			"src": "apple-icon-114.png",
-			"sizes": "144x144",
-			"type": "image/png"
-		},
-		{
 			"src": "icons/apple-touch-icon-152x152.png",
 			"sizes": "152x152",
 			"type": "image/png"
@@ -47,6 +42,17 @@
 			"src": "assets/img/WEPE_Screenshot.webp",
 			"sizes": "328x215",
 			"type": "image/webp"
+		}
+	],
+	"related_applications": [
+		{
+			"platform": "play",
+			"url": "https://play.google.com/store/apps/details?id=com.example.app1",
+			"id": "com.example.app1"
+		},
+		{
+			"platform": "itunes",
+			"url": "https://itunes.apple.com/app/example-app1/id123456789"
 		}
 	]
 }
