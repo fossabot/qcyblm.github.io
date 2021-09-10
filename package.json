@@ -19,11 +19,7 @@
 	"packageManager": "yarn@3.0.2",
 	"devDependencies": {
 		"@vuepress/plugin-pwa": "next",
-		"vuepress": "next"
-	},
-	"dependencies": {
-		"@vuepress/plugin-last-updated": "next",
 		"@vuepress/plugin-pwa-popup": "next",
-		"@vuepress/plugin-search": "next"
+		"vuepress": "next"
 	}
 }
