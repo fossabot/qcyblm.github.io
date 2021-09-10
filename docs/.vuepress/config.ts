@@ -31,7 +31,6 @@ export default defineUserConfig<DefaultThemeOptions>({
 		['link', { rel: 'apple-touch-icon-precomposed', sizes: '114x114', href: '/apple-icon-114.png', type: 'image/png' }],
 		['link', { rel: 'manifest', href: '/manifest.json' }],
 		['script', { src: '/js/baidu.js', type: 'text/javascript' }],
-		['script', { src: '/js/download.js', type: "text/javascript" }],
 	],
 	themeConfig: {
 		logo: '/assets/img/logo.webp',

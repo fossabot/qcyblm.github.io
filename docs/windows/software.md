@@ -1,3 +1,10 @@
+---
+head:
+  - - script
+    - src: /js/download.js
+      type: text/javascript
+---
+
 # Windows 常用软件下载官网
 > 软件来自各自官网
 
