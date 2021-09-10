@@ -193,6 +193,8 @@
 - [WTDR](https://wtdr.whatk.me/ "操作系统部署辅助工具")
 - [HEU KMS Activator](https://github.com/zbezj/HEU_KMS_Activator)
 	- 立即下载：<a href="javascript:void(0);" onclick='github_download("zbezj/HEU_KMS_Activator",0)'>HEU_KMS_Activator</a>
+- [PidKeyBatch](https://github.com/laomms/PidKeyBatch "密钥检测工具")
+	- 立即下载：<a href="javascript:void(0);" onclick='github_download("laomms/PidKeyBatch",0)'>PidKeyBatch</a>
 - [Defender Control](https://www.sordum.org/9480/defender-control-v1-6/)
 - [Easy Sysprep](https://www.itsk.com/es "IT天空出品的一款 Windows 操作系统封装部署辅助工具")
 - [SC](https://www.sysceo.com/sc "系统总裁自主开发的一款简单易用、智能高效的系统封装工具。")
