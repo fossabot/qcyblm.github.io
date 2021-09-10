@@ -20,6 +20,7 @@
 	"devDependencies": {
 		"@vuepress/plugin-pwa": "next",
 		"@vuepress/plugin-pwa-popup": "next",
+		"@vuepress/plugin-search": "next",
 		"vuepress": "next"
 	}
 }

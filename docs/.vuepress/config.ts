@@ -72,6 +72,16 @@ export default defineUserConfig<DefaultThemeOptions>({
 		lastUpdatedText: '最后更新时间',
 	},
 	plugins: [
+		[
+			'@vuepress/plugin-search',
+			{
+        locales: {
+          '/': {
+            placeholder: '搜索',
+          },
+        },
+      },
+		],
 		['@vuepress/plugin-pwa'],
 		[
 			'@vuepress/plugin-pwa-popup',
