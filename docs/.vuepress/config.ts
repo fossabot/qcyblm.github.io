@@ -42,6 +42,7 @@ export default defineUserConfig<DefaultThemeOptions>({
 		docsDir: 'docs',
 		editLinkPattern: ':repo/edit/:branch/:path',
 		darkMode: true,
+		contributorsText: '贡献者',
 		navbar: [
 			{
 				text: '主页',
