@@ -1,11 +1,11 @@
 {
 	"name": "青春永不落幕",
 	"short_name": "qcyblm",
+	"description": "记录软件下载平台和网络学习过程笔记",
 	"start_url": "/index.html",
 	"display": "standalone",
 	"background_color": "#fff",
 	"theme_color": "#0058CF",
-	"description": "记录软件下载平台和网络学习过程笔记",
 	"lang": "zh-CN",
 	"icons": [
 		{

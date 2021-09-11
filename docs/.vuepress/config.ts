@@ -29,7 +29,7 @@ export default defineUserConfig<DefaultThemeOptions>({
 		['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon-152x152.png', type: 'image/png' }],
 		['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#0058CF', type: 'image/svg+xml' }],
 		['link', { rel: 'apple-touch-icon-precomposed', sizes: '114x114', href: '/apple-icon-114.png', type: 'image/png' }],
-		['link', { rel: 'manifest', href: '/manifest.json' }],
+		['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
 		['script', { src: '/js/baidu.js', type: 'text/javascript' }],
 	],
 	themeConfig: {
