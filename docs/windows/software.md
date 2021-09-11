@@ -13,6 +13,10 @@ head:
 - [TIM](https://office.qq.com/ "QQ办公简洁版，是一款专注于团队办公协作的跨平台沟通工具。")
 - [微信](https://pc.weixin.qq.com/ "是一个生活方式")
 	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/dldir1.qq.com/weixin/Windows/WeChatSetup.exe'">WeChatSetup</a>
+- [企业微信](https://work.weixin.qq.com/ "让每个企业都有自己的微信")
+	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/work.weixin.qq.com/wework_admin/commdownload'">企业微信</a>
+- [腾讯会议](https://meeting.tencent.com/ "基于腾讯20多年音视频通讯经验，腾讯会议提供一站式音视频会议解决方案，让您能随时随地体验高清流畅的会议以及会议协作。")
+	- 立即下载：<a href="https://meeting.tencent.com/download-win.html" target="_blank">腾讯会议</a>
 - [阿里旺旺](https://pages.tmall.com/wow/qnww/act/index "买家端网购沟通利器，打造我的专属淘宝。")
 - [千牛](https://work.taobao.com/ "强大千牛工作台，更高效率，更多自由")
 - [钉钉](https://www.dingtalk.com/ "中国领先的智能移动办公平台，由阿里巴巴集团开发，免费提供给所有中国企业，用于商务沟通和工作协同。")
@@ -31,14 +35,20 @@ head:
 - [百分浏览器](https://www.centbrowser.cn/ "追求速度、简约和安全的网络浏览器")
 - [星愿浏览器](https://www.twinkstar.com/ "大学生都爱用的浏览器")
 - [360极速浏览器](https://browser.360.cn/ee/ "畅快浏览 极致体验")
+	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/down.360safe.com/cse/360cse_setup.exe'">360极速浏览器</a> 
 ## 输入法
 - [搜狗输入法](https://pinyin.sogou.com/ "享受输入，从搜狗开始！")
 - [搜狗五笔输入法](https://wubi.sogou.com/)
 - [QQ输入法](http://qq.pinyin.cn/ "让书写成为享受,具有词库随身带,精美皮肤更换和智能整句生成特点")
 	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='http:/\/qq.pinyin.cn/download_pc.php?t=py'">QQ 拼音</a> | <a href="javascript:void(0);" onclick="window.location.href='http:/\/qq.pinyin.cn/download_pc.php?t=wb'">QQ 五笔</a>
 - [RIME | 中州韵输入法引擎](https://rime.im/ "聪明的输入法懂我心意")
+	- 立即下载：<a href="javascript:void(0);" onclick='github_download("rime/weasel",0)'>小狼毫</a>
 - [百度输入法](https://shurufa.baidu.com/ "初见如故，再见有您")
 - [极点五笔输入法](http://www.freewb.org/ "一款 免费的多功能五笔、拼音输入软件平台 ，同时完美支持一笔、二笔等各种以 a~z 为编码的“型码”、“音型码”。")
+- [手心输入法](http://xinshuru.com/index.html?p=win "一款智能、高效，无广告骚扰，只专注于输入本质的纯粹输入法。拥有强大的智能输入引擎、丰富的本地词库、在线词库及精美皮肤在线下载，以其丰富的输入方式，海量的在线资源，带给用户超凡的输入体验。")
+	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='http:/\/down1.xinshuru.com/installer/win/PalmInput_Setup.exe'">手心输入法</a>
+- [讯飞输入法](https://srf.xunfei.cn/ "一款集语音、手写、拼音等输入方式于一体,非常便捷、好用的输入法。")
+	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/srf.xunfei.cn/winpc/'">讯飞输入法</a>
 ## 安全软件
 - [360安全卫士](https://weishi.360.cn/ "依托全网安全大数据平台，借助360威胁情报云、知识库AI云、安全专家云，全面守护网络安全。 ")
 	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/down.360safe.com/inst.exe'">正式版</a> | <a href="javascript:void(0);" onclick="window.location.href='https:/\/down.360safe.com/instbeta.exe'">beta 版</a> | <a href="javascript:void(0);" onclick="window.location.href='https:/\/down.360safe.com/setupbeta_jisu.exe'">极速版</a>
@@ -48,15 +58,18 @@ head:
 ## 媒体播放
 - [腾讯视频](https://v.qq.com/ "中国领先的在线视频媒体平台,海量高清视频在线观看")
 - [爱奇艺](https://www.iqiyi.com/ "在线视频网站-海量正版高清视频在线观看")
+	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/dl-static.iqiyi.com/hz/IQIYIsetup_app.exe'">爱奇艺</a>
 - [爱奇艺万能联播](https://static-s.iqiyi.com/wnbf/get.html "超强大的视频播放器")
 	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/app.iqiyi.com/ext/common/GeePlayerSetup_app.exe'">爱奇艺万能联播</a>
 - [芒果TV](https://www.mgtv.com/ "大家都在看的在线视频网站-热门综艺最新电影电视剧在线观看")
 	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/pcconf.api.mgtv.com/getPcDownloadUrl?lastp=ch_home'">芒果TV</a>
 - [央视影音](https://app.cctv.com/ "直播·高清·流畅·简洁·少广告")
 - [优酷](https://www.youku.com/ "快速、稳定的观影体验")
+	- 立即下载：<a href="https:/\/pcapp-update.youku.com/channelinstall/ywebtop1" target="_blank">优酷</a>
 - [MPC-BE](https://sourceforge.net/projects/mpcbe/ "Media Player Classic - BE")
 	- 立即下载：<a href="https://sourceforge.net/projects/mpcbe/files/latest/download" target="_blank">MPC-BE</a>
 - [网易云音乐](https://music.163.com/ "一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。")
+	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/music.163.com/api/pc/package/download/latest'">网易云音乐</a>
 - [QQ音乐](https://y.qq.com/ "腾讯公司推出的一款免费音乐服务")
 	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/dldir1.qq.com/music/clntupate/QQMusicSetup.exe'">QQ音乐</a>
 - [酷狗音乐](https://www.kugou.com/ "酷狗音乐，就是歌多")
@@ -80,6 +93,7 @@ head:
 	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/dl.snipaste.com/win-x86-beta'">Snipaste win32</a> |	<a href="javascript:void(0);" onclick="window.location.href='https:/\/dl.snipaste.com/win-x64-beta'">Snipaste win64</a>
 - [GIMP](https://www.gimp.org/ "The GNU Image Manipulation Program: The Free and Open Source Image Editor")
 - [OBS](https://obsproject.com/ "免费且开源的用于视频录制以及直播串流的软件。")
+	- 立即下载：<a href="javascript:void(0);" onclick='github_download("obsproject/obs-studio",2)'>OBS win32</a> | 	<a href="javascript:void(0);" onclick='github_download("obsproject/obs-studio",1)'>OBS win64</a>
 - [Waifu2x-Extension-GUI](https://gitee.com/aaronfeng0711/Waifu2x-Extension-GUI "使用机器学习放大 图片/视频/GIF 以及 视频插帧(补帧). ")
 	- 立即下载：<a href="https://sourceforge.net/projects/waifu2x-extension-gui/files/latest/download" target="_blank">Waifu2x-Extension-GUI</a>
 - [剪映](https://lv.ulikecam.com/ "全能易用的桌面端剪辑软件-轻而易剪 上演大幕")
@@ -119,6 +133,8 @@ head:
 - [天翼云盘](https://cloud.189.cn/ "天翼云盘 极速安全 家庭云|网盘|文件备份|资源分享")
 - [和彩云](https://yun.139.com/w/#/ "安全、智能、便捷、不限速的跨终端个人云、家庭云空间")
 - [腾讯微云](https://www.weiyun.com/ "腾讯公司为用户精心打造的一项智能云服务")
+- [阿里云盘](https://www.aliyundrive.com/ "一款速度快、不打扰、够安全、易于分享的网盘")
+	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/yunpan.aliyun.com/downloads/apps/desktop/aDrive.exe'">阿里云盘</a>
 - [Free Download Manager](https://www.freedownloadmanager.org/ "这是一款在Windows， macOS， Android 及Linux 操作系统下，强大又现代的下载加速组织器。")
 - [OneDrive](https://go.microsoft.com/fwlink/?LinkId=263764)
 - [Xdown](https://xdown.org/ "专业的文件下载与分享工具(BitTorrent/HTTP/FTP)")
@@ -134,7 +150,7 @@ head:
 - [TortoiseGit](https://tortoisegit.org/ "Windows Shell Interface to Git")
 - [TortoiseSVN](https://tortoisesvn.net/ "最酷的 (Sub)version 版本控制系统")
 - [nvm](https://github.com/coreybutler/nvm-windows "The npm/Microsoft/Google recommended Node.js version manager for Windows.")
-	- 立即下载：<a href="javascript:void(0);" onclick='github_download("coreybutler/nvm-windows",0)'>nvm-noinstall</a> | 	<a href="javascript:void(0);" onclick='github_download("coreybutler/nvm-windows",2)'>nvm-setup</a>
+	- 立即下载：<a href="javascript:void(0);" onclick='github_download("coreybutler/nvm-windows",0)'>nvm-noinstall</a> | <a href="javascript:void(0);" onclick='github_download("coreybutler/nvm-windows",2)'>nvm-setup</a>
 - [NVS](https://github.com/jasongin/nvs "Node Version Switcher")
 	- 立即下载：<a href="javascript:void(0);" onclick='github_download("jasongin/nvs",0)'>nvs</a>
 ## 远程工具
@@ -149,7 +165,8 @@ head:
 - [HBuilderX](https://www.dcloud.io/hbuilderx.html "是轻如编辑器、强如IDE的合体版本")
 - [Typora](https://www.typora.io/ "a markdown editor, markdown reader.")
 	- 立即下载：<a href="javascript:void(0);" onclick="window.location.href='https:/\/www.typora.io/windows/typora-setup-ia32.exe'">Typora win32</a> | <a href="javascript:void(0);" onclick="window.location.href='https:/\/www.typora.io/windows/typora-setup-x64.exe'">Typora win64</a>
-- [Notepad3](https://www.rizonesoft.com/downloads/notepad3/ "a fast and light-weight Scintilla-based text editor with syntax highlighting.")
+- [Notepad3](https://github.com/rizonesoft/Notepad3 "Notepad like text editor based on the Scintilla source code.")
+	- 立即下载：<a href="javascript:void(0);" onclick='github_download("rizonesoft/Notepad3",1)'>Notepad3-noinstall</a> | <a href="javascript:void(0);" onclick='github_download("rizonesoft/Notepad3",2)'>Notepad3-setup</a>
 - [JetBrains](https://www.jetbrains.com/ "软件开发者和团队的必备工具")
 ## 硬件检测
 - [鲁大师](https://www.ludashi.com/ "国内一款知名免费系统工具软件")
