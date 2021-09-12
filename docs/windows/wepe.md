@@ -1,12 +1,12 @@
 # Windows PE 工具推荐
 ## 微 PE 工具箱
-![微PE工具](https://qcyblm.gitee.io/assets/img/LOGO_WEPE.webp)  
+![微PE工具](http://www.wepe.com.cn/img/LOGO_WEPE.png)  
 官方网站：[http://www.wepe.com.cn](http://www.wepe.com.cn)  
 简介：化繁为简，小材大用！  
 说明：跨时代的 PE 工具箱，装机维护最得力的助手，最后的救命稻草。化繁为简，小材大用，一键安装，极速启动。  
 微 PE 优盘：[http://www.wepe.com.cn/udisk.html](http://www.wepe.com.cn/udisk.html)  
 下载地址：[http://www.wepe.com.cn/download.html](http://www.wepe.com.cn/download.html)  
-![微PE工具箱](https://qcyblm.gitee.io/assets/img/WEPE_Screenshot.webp)  
+![微PE工具箱](http://www.wepe.com.cn/images/download/u22.png)  
 ### 微 PE 工具箱关键特性
 ::: tip 全能的安装程序
 微 PE 的智能 EXE 安装包使得 WinPE 能够灵活地安装到系统开机启动项、制作可启动 U 盘、移动硬盘、生成 ISO 镜像。  
