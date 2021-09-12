@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.webp
+heroImage: /images/hero.webp
 heroAlt: 青春永不落幕
 heroText: 青春永不落幕
 tagline: 记录软件下载平台和网络学习过程笔记

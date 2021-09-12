@@ -17,11 +17,19 @@ export default defineUserConfig<DefaultThemeOptions>({
 		['meta', { property: "article:author", content: "青春永不落幕" }],
 		['meta', { property: "article:tag", content: "VuePress, docs, blog" }],
 		['meta', { property: "og:image", content: "/favicon.ico" }],
-		['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon', sizes: "64x64" }],
-		['link', { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon', sizes: "64x64" }],
+		['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: `/images/icons/favicon-16x16.png`, },],
+		['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: `/images/icons/favicon-32x32.png`, },],
+		['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+		['meta', { name: 'application-name', content: '青春永不落幕' }],
+		['meta', { name: 'apple-mobile-web-app-title', content: '青春永不落幕' }],
+		['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },],
+		['link', { rel: 'apple-touch-icon', href: `/images/icons/apple-touch-icon.png` },],
+		['link', { rel: 'mask-icon', href: '/images/icons/safari-pinned-tab.svg', color: '#0058CF', },],
+		['meta', { name: 'msapplication-TileColor', content: '#0058CF' }],
+		['meta', { name: 'theme-color', content: '#0058CF' }],
 	],
 	themeConfig: {
-		logo: '/assets/img/logo.webp',
+		logo: '/images/logo.webp',
 		repo: 'https://gitee.com/qcyblm/qcyblm/',
 		editLink: true,
 		editLinkText: '编辑当前页',
@@ -52,6 +60,18 @@ export default defineUserConfig<DefaultThemeOptions>({
 			'@vuepress/plugin-search', {
 				locales: {
 					'/': { placeholder: '搜索', },
+				},
+			},
+		],
+		['@vuepress/plugin-pwa'],
+		[
+			'@vuepress/plugin-pwa-popup',
+			{
+				locales: {
+					'/': {
+						message: '发现新内容可用',
+						buttonText: '刷新',
+					},
 				},
 			},
 		],
