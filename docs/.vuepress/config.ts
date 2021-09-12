@@ -25,7 +25,7 @@ export default defineUserConfig<DefaultThemeOptions>({
 		['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },],
 		['link', { rel: 'apple-touch-icon', href: `/images/icons/apple-touch-icon.png` },],
 		['link', { rel: 'mask-icon', href: '/images/icons/safari-pinned-tab.svg', color: '#fff', },],
-		['meta', { name: 'msapplication-TileColor', content: '#0058CF' }],
+		['meta', { name: 'msapplication-TileColor', content: '#fff' }],
 		['meta', { name: 'theme-color', content: '#0058CF' }],
 	],
 	themeConfig: {
