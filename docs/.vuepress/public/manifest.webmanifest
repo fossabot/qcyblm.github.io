@@ -1,11 +1,11 @@
 {
-  "name": "VuePress",
-  "short_name": "VuePress",
-  "description": "Vue-powered Static Site Generator",
+  "name": "青春永不落幕",
+  "short_name": "青春永不落幕",
+  "description": "记录软件下载平台和网络学习过程笔记",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fff",
-  "theme_color": "#3eaf7c",
+  "theme_color": "#0058CF",
   "icons": [
     {
       "src": "/images/icons/android-chrome-192x192.png",

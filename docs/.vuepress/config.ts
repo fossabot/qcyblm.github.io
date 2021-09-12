@@ -24,7 +24,7 @@ export default defineUserConfig<DefaultThemeOptions>({
 		['meta', { name: 'apple-mobile-web-app-title', content: '青春永不落幕' }],
 		['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },],
 		['link', { rel: 'apple-touch-icon', href: `/images/icons/apple-touch-icon.png` },],
-		['link', { rel: 'mask-icon', href: '/images/icons/safari-pinned-tab.svg', color: '#0058CF', },],
+		['link', { rel: 'mask-icon', href: '/images/icons/safari-pinned-tab.svg', color: '#fff', },],
 		['meta', { name: 'msapplication-TileColor', content: '#0058CF' }],
 		['meta', { name: 'theme-color', content: '#0058CF' }],
 	],
