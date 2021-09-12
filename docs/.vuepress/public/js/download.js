@@ -34,3 +34,40 @@ function github_download(repositories, option) {
 	xhttp.timeout = 2000;
 	xhttp.send();
 }
+
+function gitee_download_error(error_link) {
+	console.log("无此文件，正在跳转" + error_link);
+	window.open(error_link, '_blank').focus();
+	//window.location.replace(error_link);
+}
+function gitee_download(repositories, option) {
+	var xhttp = new XMLHttpRequest();
+	var error_link = "https://gitee.com/" + repositories + "/releases";
+	xhttp.onreadystatechange = function () {
+		if (this.readyState == 4 && this.status == 200) {
+			try {
+				var content = JSON.parse(xhttp.responseText);
+				var url = content.assets[option].browser_download_url;
+				var name = content.assets[option].name;
+				console.log("正在下载 " + name + " 请稍等……");
+				window.location.replace(url);
+			} catch (error) {
+				gitee_download_error(error_link);
+			}
+		}
+	};
+	xhttp.onload = function () {
+		if (this.readyState != 4 && this.status != 200) {
+			gitee_download_error(error_link);
+		}
+	};
+	xhttp.onerror = function () {
+		gitee_download_error(error_link);
+	};
+	xhttp.ontimeout = function (e) {
+		gitee_download_error(error_link);
+	};
+	xhttp.open("GET", "https://gitee.com/api/v5/repos/" + repositories + "/releases/latest", true);
+	xhttp.timeout = 2000;
+	xhttp.send();
+}
