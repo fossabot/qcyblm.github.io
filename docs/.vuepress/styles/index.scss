@@ -65,11 +65,6 @@
   --sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
   --content-width: 740px;
   --homepage-width: 960px;
-
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: transparent;
-  -moz-osx-font-smoothing: grayscale;
-
 }
 
 // plugin-back-to-top
@@ -174,7 +169,6 @@ html.dark .DocSearch {
     0 -4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.mobile-dropdown-title,.toggle-sidebar-button{
-	border: none;
-	outline: none;
-	}
+:focus{
+	outline: 0;
+}
