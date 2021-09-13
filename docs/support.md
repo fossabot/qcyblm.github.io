@@ -1,6 +1,7 @@
 # 支持
 ## 社区
 - Gitee：[Issues](https://gitee.com/qcyblm/qcyblm/issues)
+- QQ群：[1020106347](https://qm.qq.com/cgi-bin/qm/qr?k=CyECbLnYwqXhVLeibASH12evuBtUYM0G&jump_from=webapi "前后端＆软件学习交流")
 ## 友情链接
 - [大贤者初春令月](https://mourinaruto.github.io/ "致力于编写使用最少的语法特性和第三方库的紧凑实现")
 - [Dism++](https://www.chuyu.me/ "全球第一款基于 CBS 的 Dism GUI 实现。")
