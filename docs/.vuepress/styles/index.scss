@@ -65,6 +65,9 @@
   --sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
   --content-width: 740px;
   --homepage-width: 960px;
+
+	-webkit-tap-highlight-color: transparent;
+
 }
 
 // plugin-back-to-top
@@ -171,4 +174,5 @@ html.dark .DocSearch {
 
 :focus{
 	outline: 0;
+	border: 0;
 }
