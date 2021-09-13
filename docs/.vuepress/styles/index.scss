@@ -65,6 +65,11 @@
   --sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
   --content-width: 740px;
   --homepage-width: 960px;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -moz-osx-font-smoothing: grayscale;
+
 }
 
 // plugin-back-to-top
@@ -167,12 +172,6 @@ html.dark .DocSearch {
   --docsearch-key-gradient: linear-gradient(-225deg, #444950, #1c1e21);
   --docsearch-footer-shadow: inset 0 1px 0 0 rgba(73, 76, 106, 0.5),
     0 -4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-body{
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: transparent;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .button .toggle-sidebar-button{
