@@ -4,47 +4,47 @@ on:
     branches:
       - master
     paths-ignore:
-      - '.github/workflows/baiduPush.yml'
-      - '.*'
-      - 'LICENSE'
-      - 'README.md'
-      - 'renovate.json'
-      
+      - ".github/workflows/baiduPush.yml"
+      - ".*"
+      - "LICENSE"
+      - "README.md"
+      - "renovate.json"
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: ['lts/fermium']
+        node: ["lts/fermium"]
     steps:
       - name: Checkout
         uses: actions/checkout@main
         with:
-          ref: 'master'
+          ref: "master"
           persist-credentials: false
           fetch-depth: 0
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@main
         with:
-          node-version:  ${{ matrix.node }}
+          node-version: ${{ matrix.node }}
       - name: Install dependencies
         run: yarn
       - name: Build VuePress
         run: yarn docs:build
       - name: Deploy to Pages
         env:
-         TZ: Asia/Shanghai
+          TZ: Asia/Shanghai
         run: |
-         cd docs/.vuepress/dist
-         git config --global init.defaultBranch master
-         git init
-         git config user.name $GITHUB_ACTOR
-         git config user.email ${{ secrets.GIT_EMAIL }}
-         git add .
-         git commit -q -m "Deploying to gh-pages from @ $GITHUB_SHA in $(date +"%Y年%m月%d日 %T %Z")"
-         git push -f -q https://$GITHUB_ACTOR:${{ github.token }}@github.com/$GITHUB_REPOSITORY.git master:gh-pages --tags
-         git push -f -q https://$GITHUB_ACTOR:${{ secrets.GITEE_TOKEN }}@gitee.com/$GITHUB_ACTOR/$GITHUB_ACTOR.git master:gh-pages --tags
-         git push -f -q https://${{ secrets.CODING_TOKEN_NAME }}:${{ secrets.CODING_TOKEN }}@e.coding.net/$GITHUB_ACTOR/$GITHUB_ACTOR.git master:gh-pages --tags
+          cd docs/.vuepress/dist
+          git config --global init.defaultBranch master
+          git init
+          git config user.name $GITHUB_ACTOR
+          git config user.email ${{ secrets.GIT_EMAIL }}
+          git add .
+          git commit -q -m "Deploying to gh-pages from @ $GITHUB_SHA in $(date +"%a %b %d %T %Z %Y")"
+          git push -f -q https://$GITHUB_ACTOR:${{ github.token }}@github.com/$GITHUB_REPOSITORY.git master:gh-pages --tags
+          git push -f -q https://$GITHUB_ACTOR:${{ secrets.GITEE_TOKEN }}@gitee.com/$GITHUB_ACTOR/$GITHUB_ACTOR.git master:gh-pages --tags
+          git push -f -q https://${{ secrets.CODING_TOKEN_NAME }}:${{ secrets.CODING_TOKEN }}@e.coding.net/$GITHUB_ACTOR/$GITHUB_ACTOR.git master:gh-pages --tags
       - name: Gitee Pages Action
         uses: yanglbme/gitee-pages-action@v1.3.2
         with:
@@ -53,4 +53,3 @@ jobs:
           gitee-repo: qcyblm/qcyblm
           branch: gh-pages
           https: true
-          
