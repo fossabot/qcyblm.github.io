@@ -6,7 +6,7 @@ heroText: 青春永不落幕
 tagline: 记录软件下载平台和网络学习过程笔记
 actions:
   - text: 关于我
-    link: /about.html
+    link: /about
     type: primary
 features:
   - title: 个人介绍
@@ -20,10 +20,10 @@ footerHtml: true
 ## 欢迎来到青春永不落幕的技术博客
 
 我是一位网页设计和收集 Windows 平台软件的爱好者，这里将探讨 Windows 开源软件，网站框架等。
-- [关于](/about.html)
-- [项目](/project.html)
-- [支持](/support.html)
+- [关于](/about)
+- [项目](/project)
+- [支持](/support)
 
 ### Windows
-- [Windows 常用软件下载官网](/windows/software.html)
-- [Windows PE 工具](/windows/wepe.html)
+- [Windows 常用软件下载官网](/windows/software)
+- [Windows PE 工具](/windows/wepe)

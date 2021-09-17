@@ -41,16 +41,17 @@ export default defineUserConfig<DefaultThemeOptions>({
 		contributorsText: '贡献者',
 		navbar: [
 			{ text: '主页', link: '/', },
-			{ text: '关于', link: '/about.html' },
-			{ text: '项目', link: '/project.html' },
+			{ text: '关于', link: '/about' },
+			{ text: '项目', link: '/project' },
 			{
 				text: 'Windows',
-				children: ['/windows/software.html', '/windows/wepe.html'],
+				children: ['/windows/software', '/windows/wepe'],
 			},
-			{ text: '支持&友链', link: '/support.html' }
+			{ text: '导航', link: '/nav' },
+			{ text: '支持&友链', link: '/support' }
 		],
 		sidebar: {
-			'/windows/': ['/windows/software.html', '/windows/wepe.html']
+			'/windows/': ['/windows/software', '/windows/wepe']
 		},
 		lastUpdated: true,
 		lastUpdatedText: '最后更新时间',
