@@ -27,10 +27,12 @@ jobs:
         uses: actions/setup-node@main
         with:
           node-version: ${{ matrix.node }}
+      - name: Setup pnpm
+        run: npm install pnpm -g
       - name: Install dependencies
-        run: yarn
+        run: pnpm i --shamefully-hoist
       - name: Build VuePress
-        run: yarn docs:build
+        run: pnpm docs:build
       - name: Deploy to Pages
         env:
           TZ: Asia/Shanghai

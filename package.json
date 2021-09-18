@@ -4,8 +4,8 @@
 	"description": "记录软件下载平台和网络学习过程笔记",
 	"main": "index.js",
 	"scripts": {
-		"docs:dev": "vuepress dev docs --clean-cache --debug",
-		"docs:build": "vuepress build docs --clean-cache --debug"
+		"docs:dev": "vuepress dev docs --clean-cache",
+		"docs:build": "vuepress build docs --clean-cache"
 	},
 	"repository": "https://gitee.com/qcyblm/qcyblm.git",
 	"keywords": [
@@ -15,12 +15,10 @@
 	],
 	"author": "qcyblm <qcyblm@139.com> (https://qcyblm.gitee.io/)",
 	"license": "MIT",
-	"private": true,
-	"packageManager": "yarn@3.1.0-rc.3",
 	"devDependencies": {
-		"@vuepress/plugin-pwa": "next",
-		"@vuepress/plugin-pwa-popup": "next",
-		"@vuepress/plugin-search": "next",
-		"vuepress": "next"
+		"@vuepress/plugin-pwa": "2.0.0-beta.26",
+		"@vuepress/plugin-pwa-popup": "2.0.0-beta.26",
+		"@vuepress/plugin-search": "2.0.0-beta.26",
+		"vuepress": "2.0.0-beta.26"
 	}
 }
