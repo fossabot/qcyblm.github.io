@@ -1,8 +1,8 @@
 # 青春永不落幕
-[![Git Mirror Action status](https://github.com/qcyblm/qcyblm.github.io/workflows/Git%20Mirror%20Action/badge.svg)](https://github.com/qcyblm/qcyblm.github.io/actions/workflows/Git%20Mirror%20Action.yml)
+[![Git Mirror Action status](https://github.com/qcyblm/qcyblm.github.io/workflows/Git%20Mirror%20Action/badge.svg)](https://github.com/qcyblm/qcyblm.github.io/actions/workflows/GitMirrorAction.yml)
 [![vuepress-deploy status](https://github.com/qcyblm/qcyblm.github.io/workflows/vuepress-deploy/badge.svg)](https://github.com/qcyblm/qcyblm.github.io/actions/workflows/vuepress-deploy.yml)
-[![pnpm](https://img.shields.io/npm/v/pnpm?label=pnpm)](https://github.com/pnpm/pnpm)
-[![vuepress@next](https://img.shields.io/github/v/release/vuepress/vuepress-next?include_prereleases&label=vuepress%40next)](https://github.com/vuepress/vuepress-next/releases)
+[![pnpm](https://img.shields.io/npm/v/pnpm?label=pnpm)](https://github.com/pnpm/pnpm/)
+[![vuepress@next](https://img.shields.io/github/v/release/vuepress/vuepress-next?include_prereleases&label=vuepress%40next)](https://github.com/vuepress/vuepress-next/)
 [![GitHub LICENSE](https://img.shields.io/github/license/qcyblm/qcyblm.github.io)](/LICENSE)
 
 
