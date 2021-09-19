@@ -16,19 +16,19 @@
 	"author": "qcyblm <qcyblm@139.com> (https://qcyblm.gitee.io/)",
 	"license": "MIT",
 	"devDependencies": {
-		"@vuepress/plugin-pwa": "2.0.0-beta.26",
-		"@vuepress/plugin-pwa-popup": "2.0.0-beta.26",
-		"@vuepress/plugin-search": "2.0.0-beta.26",
-		"vuepress": "2.0.0-beta.26"
+		"@vuepress/plugin-pwa": "next",
+		"@vuepress/plugin-pwa-popup": "next",
+		"@vuepress/plugin-search": "next",
+		"vuepress": "next"
 	},
 	"dependencies": {
-    "@vuepress/client": "2.0.0-beta.26",
-    "css-loader": "^6.2.0",
-    "esbuild-loader": "~2.15.1",
-    "postcss-loader": "^6.1.1",
-    "sass-loader": "^12.1.0",
-    "style-loader": "^3.2.1",
-    "vue": "^3.2.11",
-    "vue-loader": "^16.5.0"
-}
+		"@vuepress/client": "next",
+		"css-loader": "latest",
+		"esbuild-loader": "latest",
+		"postcss-loader": "latest",
+		"sass-loader": "latest",
+		"style-loader": "latest",
+		"vue": "next",
+		"vue-loader": "next"
+	}
 }
