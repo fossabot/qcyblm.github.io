@@ -1,7 +1,7 @@
 # 青春永不落幕
 [![Git Mirror Action status](https://github.com/qcyblm/qcyblm.github.io/workflows/Git%20Mirror%20Action/badge.svg)](https://github.com/qcyblm/qcyblm.github.io/actions/workflows/Git%20Mirror%20Action.yml)
 [![vuepress-deploy status](https://github.com/qcyblm/qcyblm.github.io/workflows/vuepress-deploy/badge.svg)](https://github.com/qcyblm/qcyblm.github.io/actions/workflows/vuepress-deploy.yml)
-[![yarn (Latest CLI Release)](https://img.shields.io/npm/v/@yarnpkg/cli/latest?label=yarn%40berry)](https://github.com/yarnpkg/berry)
+[![pnpm](https://img.shields.io/npm/v/pnpm?label=pnpm)](https://github.com/pnpm/pnpm)
 [![vuepress@next](https://img.shields.io/github/v/release/vuepress/vuepress-next?include_prereleases&label=vuepress%40next)](https://github.com/vuepress/vuepress-next/releases)
 [![GitHub LICENSE](https://img.shields.io/github/license/qcyblm/qcyblm.github.io)](/LICENSE)
 
@@ -10,19 +10,25 @@
 
 ## 依赖环境
 - [Node.js v12+](https://nodejs.org/)
-- [Yarn berry](https://github.com/yarnpkg/berry)（可选）
+- [Yarn 1 (Classic)](https://classic.yarnpkg.com/)（可选）
+- [pnpm](https://pnpm.io/)（可选，目前项目正在使用中）
 
 ## 网站框架
 - [VuePress next](https://v2.vuepress.vuejs.org/)
 
+## 安装项目的所有依赖项
+```
+pnpm i --shamefully-hoist
+```
+
 ## 文档预览
 ```
-yarn docs:dev
+pnpm docs:dev
 ```
 
 ## 文档生成
 ```
-yarn docs:build
+pnpm docs:build
 ```
 
 ## Git 仓库
