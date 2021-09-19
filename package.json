@@ -20,5 +20,15 @@
 		"@vuepress/plugin-pwa-popup": "2.0.0-beta.26",
 		"@vuepress/plugin-search": "2.0.0-beta.26",
 		"vuepress": "2.0.0-beta.26"
-	}
+	},
+	"dependencies": {
+    "@vuepress/client": "2.0.0-beta.26",
+    "css-loader": "^6.2.0",
+    "esbuild-loader": "~2.15.1",
+    "postcss-loader": "^6.1.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "vue": "^3.2.11",
+    "vue-loader": "^16.5.0"
+}
 }

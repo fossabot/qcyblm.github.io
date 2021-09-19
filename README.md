@@ -18,7 +18,7 @@
 
 ## 安装项目的所有依赖项
 ```
-pnpm i --shamefully-hoist
+pnpm i
 ```
 
 ## 文档预览

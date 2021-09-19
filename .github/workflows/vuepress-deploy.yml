@@ -30,7 +30,7 @@ jobs:
       - name: Setup pnpm
         run: npm install pnpm -g
       - name: Install dependencies
-        run: pnpm i --shamefully-hoist
+        run: pnpm i
       - name: Build VuePress
         run: pnpm docs:build
       - name: Deploy to Pages
