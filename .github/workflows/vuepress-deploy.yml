@@ -4,59 +4,56 @@ on:
     branches:
       - master
     paths-ignore:
-      - ".github/workflows/baiduPush.yml"
-      - ".*"
-      - "LICENSE"
-      - "README.md"
-      - "renovate.json"
-
+      - .gitignore
+      - .mergify.yml
+      - LICENSE
+      - README.md
+      - renovate.json
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: ["lts/fermium"]
+        node-version: ['lts/fermium']
     steps:
-      - name: Checkout
-        uses: actions/checkout@main
-        with:
-          ref: "master"
-          persist-credentials: false
-          fetch-depth: 0
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@main
-        with:
-          node-version: ${{ matrix.node }}
-      - name: Cache .pnpm-store
-			  uses: actions/cache@main
-				with:
-					path: ~/.pnpm-store
-					key: ${{ runner.os }}-node${{ matrix.node-version }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-			- name: Install pnpm
-        run: npm install pnpm -g
-      - name: Install dependencies
-        run: pnpm i
-      - name: Build VuePress
-        run: pnpm docs:build
-      - name: Deploy to Pages
-        env:
-          TZ: Asia/Shanghai
-        run: |
-          cd docs/.vuepress/dist
-          git config --global init.defaultBranch master
-          git init
-          git config user.name $GITHUB_ACTOR
-          git config user.email ${{ secrets.GIT_EMAIL }}
-          git add .
-          git commit -q -m "Deploying to gh-pages from @ $GITHUB_SHA in $(date +"%a %b %d %T %Z %Y")"
-          git push -f -q https://$GITHUB_ACTOR:${{ github.token }}@github.com/$GITHUB_REPOSITORY.git master:gh-pages --tags
-          git push -f -q https://$GITHUB_ACTOR:${{ secrets.GITEE_TOKEN }}@gitee.com/$GITHUB_ACTOR/$GITHUB_ACTOR.git master:gh-pages --tags
-          git push -f -q https://${{ secrets.CODING_TOKEN_NAME }}:${{ secrets.CODING_TOKEN }}@e.coding.net/$GITHUB_ACTOR/$GITHUB_ACTOR.git master:gh-pages --tags
-      - name: Gitee Pages Action
-        uses: yanglbme/gitee-pages-action@v1.3.2
-        with:
-          gitee-username: qcyblm
-          gitee-password: ${{ secrets.GITEE_PASSWORD }}
-          gitee-repo: qcyblm/qcyblm
-          branch: gh-pages
-          https: true
+    - uses: actions/checkout@main
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@main
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Cache .pnpm-store
+      uses: actions/cache@main
+      with:
+        path: ~/.pnpm-store
+        key: ${{ runner.os }}-node${{ matrix.node-version }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+    - name: Install pnpm
+      run: curl -f https://get.pnpm.io/v6.14.js | node - add --global pnpm@6
+    - name: Install dependencies
+      run: pnpm i
+    - name: Build VuePress
+      run: pnpm docs:build
+    - name: Deploy to Pages
+      env:
+        TZ: Asia/Shanghai
+      run: |
+        cd docs/.vuepress/dist
+        git config --global init.defaultBranch master
+        git init
+        git config user.name $GITHUB_ACTOR
+        git config user.email ${{ secrets.GIT_EMAIL }}
+        git add .
+        git commit -q -m "Deploying to gh-pages from @ $GITHUB_SHA in $(date +"%a %b %d %T %Z %Y")"
+        git push -f -q https://$GITHUB_ACTOR:${{ github.token }}@github.com/$GITHUB_REPOSITORY.git master:gh-pages --tags
+        git push -f -q https://$GITHUB_ACTOR:${{ secrets.GITEE_TOKEN }}@gitee.com/$GITHUB_ACTOR/$GITHUB_ACTOR.git master:gh-pages --tags
+        git push -f -q https://${{ secrets.CODING_TOKEN_NAME }}:${{ secrets.CODING_TOKEN }}@e.coding.net/$GITHUB_ACTOR/$GITHUB_ACTOR.git master:gh-pages --tags
+    - name: Gitee Pages Action
+      uses: yanglbme/gitee-pages-action@v1.3.2
+      with:
+        gitee-username: qcyblm
+        gitee-password: ${{ secrets.GITEE_PASSWORD }}
+        gitee-repo: qcyblm/qcyblm
+        branch: gh-pages
+        https: true
