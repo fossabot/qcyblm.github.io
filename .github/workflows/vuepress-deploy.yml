@@ -14,7 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: ['lts/fermium']
+        node:
+          - 'lts'
     steps:
     - name: Checkout
       uses: actions/checkout@main
@@ -24,12 +25,12 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@main
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: ${{ matrix.node }}
     - name: Cache .pnpm-store
       uses: actions/cache@main
       with:
         path: ~/.pnpm-store
-        key: ${{ runner.os }}-node${{ matrix.node-version }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-node${{ matrix.node }}-${{ hashFiles('**/pnpm-lock.yaml') }}
     - name: Install pnpm
       run: curl -f https://get.pnpm.io/v6.js | node - add --global pnpm@latest
     - name: Install dependencies
