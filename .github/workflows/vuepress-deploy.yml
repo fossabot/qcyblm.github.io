@@ -11,11 +11,14 @@ on:
       - renovate.json
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
     strategy:
       matrix:
         node:
           - 'lts/*'
+        platform:
+          - ubuntu-latest
+    name: '${{matrix.platform}} / Node.js ${{ matrix.node }}'
+    runs-on: ${{matrix.platform}}
     steps:
     - name: Checkout
       uses: actions/checkout@main
