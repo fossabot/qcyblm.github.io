@@ -1,0 +1,21 @@
+{
+  "name": "青春永不落幕",
+  "short_name": "青春永不落幕",
+  "description": "记录软件下载平台和网络学习过程笔记",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#0058CF",
+  "icons": [
+    {
+      "src": "/images/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/android-chrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    }
+  ]
+}
