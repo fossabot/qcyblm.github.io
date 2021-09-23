@@ -1,5 +1,6 @@
 # 青春永不落幕
-[![Git Mirror Action status](https://github.com/qcyblm/qcyblm.github.io/workflows/Git%20Mirror%20Action/badge.svg)](https://github.com/qcyblm/qcyblm.github.io/actions/workflows/GitMirrorAction.yml)
+[![Git Mirror Action status](https://github.com/qcyblm/qcyblm.github.io/workflows/Git%20Mirror%20Action/badge.svg)](https://github.com/qcyblm/qcyblm.github.io/actions/workflows/GitMirrorAction.yml)[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fqcyblm%2Fqcyblm.github.io.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fqcyblm%2Fqcyblm.github.io?ref=badge_shield)
+
 [![vuepress-deploy status](https://github.com/qcyblm/qcyblm.github.io/workflows/vuepress-deploy/badge.svg)](https://github.com/qcyblm/qcyblm.github.io/actions/workflows/vuepress-deploy.yml)
 [![pnpm](https://img.shields.io/npm/v/pnpm?label=pnpm)](https://github.com/pnpm/pnpm/)
 [![vuepress@next](https://img.shields.io/github/v/release/vuepress/vuepress-next?include_prereleases&label=vuepress%40next)](https://github.com/vuepress/vuepress-next/)
@@ -39,3 +40,7 @@ pnpm docs:build
 ## 个人网站
 - GitHub：https://qcyblm.github.io/
 - Gitee：https://qcyblm.gitee.io/
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fqcyblm%2Fqcyblm.github.io.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fqcyblm%2Fqcyblm.github.io?ref=badge_large)
